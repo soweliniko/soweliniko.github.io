@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en-uk">
+
+<head>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Stop. Writing. Shell. Scripts. (a rant) | lipu pi soweli Niko</title>
+<meta name="title" content="Stop. Writing. Shell. Scripts. (a rant)" />
+<meta name="description" content="(warning - this is basically unedited ranting into a text editor. Here there be dragons!)
+Shell scripts are the worst kind of problem, where everybody seems to have just accepted that the problem is there and not worth dealing with. Shell scripts have been normalised as an acceptable part of life on a linux or unix system, but they shouldn&rsquo;t be. Shell scripts are an unacceptably awful form of programming. While many people contend that a good programmer can write a good program in any language, and I mostly agree, shell scripts work so hard against you in writing anything approaching a good program." />
+<meta name="keywords" content="" />
+
+
+<meta property="og:title" content="Stop. Writing. Shell. Scripts. (a rant)" />
+<meta property="og:description" content="(warning - this is basically unedited ranting into a text editor. Here there be dragons!)
+Shell scripts are the worst kind of problem, where everybody seems to have just accepted that the problem is there and not worth dealing with. Shell scripts have been normalised as an acceptable part of life on a linux or unix system, but they shouldn&rsquo;t be. Shell scripts are an unacceptably awful form of programming. While many people contend that a good programmer can write a good program in any language, and I mostly agree, shell scripts work so hard against you in writing anything approaching a good program." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://itwont.work/blog/shellrant.html" /><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2022-05-17T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-05-17T00:00:00+00:00" /><meta property="og:site_name" content="lipu pi soweli Niko" />
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Stop. Writing. Shell. Scripts. (a rant)"/>
+<meta name="twitter:description" content="(warning - this is basically unedited ranting into a text editor. Here there be dragons!)
+Shell scripts are the worst kind of problem, where everybody seems to have just accepted that the problem is there and not worth dealing with. Shell scripts have been normalised as an acceptable part of life on a linux or unix system, but they shouldn&rsquo;t be. Shell scripts are an unacceptably awful form of programming. While many people contend that a good programmer can write a good program in any language, and I mostly agree, shell scripts work so hard against you in writing anything approaching a good program."/>
+
+
+
+<meta itemprop="name" content="Stop. Writing. Shell. Scripts. (a rant)">
+<meta itemprop="description" content="(warning - this is basically unedited ranting into a text editor. Here there be dragons!)
+Shell scripts are the worst kind of problem, where everybody seems to have just accepted that the problem is there and not worth dealing with. Shell scripts have been normalised as an acceptable part of life on a linux or unix system, but they shouldn&rsquo;t be. Shell scripts are an unacceptably awful form of programming. While many people contend that a good programmer can write a good program in any language, and I mostly agree, shell scripts work so hard against you in writing anything approaching a good program."><meta itemprop="datePublished" content="2022-05-17T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2022-05-17T00:00:00+00:00" />
+<meta itemprop="wordCount" content="1855">
+<meta itemprop="keywords" content="" />
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+  body {
+    font-family: Verdana, sans-serif;
+    margin: auto;
+    padding: 20px;
+    max-width: 720px;
+    text-align: left;
+    background-color: #fff;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: #444;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  strong,
+  b {
+    color: #222;
+  }
+
+  a {
+    color: #3273dc;
+     
+  }
+
+  .title {
+    text-decoration: none;
+    border: 0;
+  }
+
+  .title span {
+    font-weight: 400;
+  }
+
+  nav a {
+    margin-right: 10px;
+  }
+
+  textarea {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  input {
+    font-size: 16px;
+  }
+
+  content {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    padding: 2px 5px;
+    background-color: #f2f2f2;
+  }
+
+  pre code {
+    color: #222;
+    display: block;
+    padding: 20px;
+    white-space: pre-wrap;
+    font-size: 14px;
+    overflow-x: auto;
+  }
+
+  div.highlight pre {
+    background-color: initial;
+    color: initial;
+  }
+
+  div.highlight code {
+    background-color: unset;
+    color: unset;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: #222;
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px;
+ 
+  }
+
+  .helptext {
+    color: #777;
+    font-size: small;
+  }
+
+  .errorlist {
+    color: #eba613;
+    font-size: small;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: #8b6fcb;
+  }
+
+  img#mwu {
+    max-width: 10%;
+  }
+
+  img#small-mwu {
+    max-width: 5%;
+  }
+  img#webring {
+    max-width: 10%;
+    }
+  div.mwu p {
+    display:inline;
+  }
+
+  div.mwubox {
+    border-style:solid;
+    border-color:#444;
+    border-width: 0.1em;
+    padding: 0em 1em;
+  }
+
+  div.mwubox img#mwu {
+  float: left;
+  margin-right: 1em;
+}
+
+  div.mwubox h4 {
+    text-align: center;
+  }
+
+
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #333;
+      color: #ddd;
+    }
+
+    img#webring {
+      filter: invert(100%);
+    }
+
+    div.mwubox {
+        border-color:#ddd;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    strong,
+    b {
+      color: #eee;
+    }
+
+    a {
+      color: #8cc2dd;
+    }
+
+    code {
+      background-color: #777;
+    }
+
+    pre code {
+      color: #ddd;
+    }
+
+    blockquote {
+      color: #ccc;
+    }
+
+    textarea,
+    input {
+      background-color: #252525;
+      color: #ddd;
+    }
+
+    .helptext {
+      color: #aaa;
+    }
+  }
+
+</style>
+
+</head>
+
+<body>
+  <header><a href="../" class="title">
+
+  <h2><img id="mwu" src="https://itwont.work/images/mwu.svg" /> lipu pi soweli Niko</h2>
+</a>
+<nav><a href="../">Home</a>
+
+<a href="../books.html"></a>
+
+<a href="../about.html">About</a>
+
+<a href="../music.html">Music</a>
+
+<a href="../recipes.html">Recipes</a>
+
+
+<a href="https://itwont.work/blog">Blog</a>
+
+</nav>
+</header>
+  <main>
+
+<h1>Stop. Writing. Shell. Scripts. (a rant)</h1>
+<p>
+  <i>
+    <time datetime='2022-05-17' pubdate>
+      17 May, 2022
+    </time>
+  </i>
+</p>
+
+<content>
+  <p>(warning - this is basically unedited ranting into a text editor. Here there be dragons!)</p>
+<p>Shell scripts are the worst kind of problem, where everybody seems to have just accepted that the problem is there and not worth dealing with. Shell scripts have been normalised as an acceptable part of life on a linux or unix system, but they shouldn&rsquo;t be. Shell scripts are an unacceptably awful form of programming. While many people contend that a good programmer can write a good program in any language, and I mostly agree, shell scripts work so hard against you in writing anything approaching a good program.</p>
+<p>And I know some people will respond in a few very predictable ways:</p>
+<ul>
+<li>&ldquo;Shell scripts weren&rsquo;t made for complex or critical programs!&rdquo;</li>
+<li>&ldquo;This is actually good because it aligns with the unix philosophy!&rdquo;</li>
+<li>&ldquo;Shellcheck solves most of these problems!&rdquo;</li>
+<li>&ldquo;You&rsquo;re an uninformed idiot writing a ranty blog post purely from your personal experience and not an experienced shell programmer like me!&rdquo;
+to the first, I respond that even if this was never the intention, important things is what I see shell scripts used for more than anything else - things like installers, system administation tools, and so on. It&rsquo;s not uncommon, in my experience, to encounter shell scripts that ask for root access. To the second, I think that the unix philosophy is flawed, and one of the points of sharing this rant is to highlight some of its flaws. I&rsquo;ll get to the third later. The fourth is correct, if a little rude. So with that in mind, on to the complaining!</li>
+</ul>
+<h2 id="everything-as-strings-is-a-bad-idea-actually">Everything as strings is a bad idea, actually</h2>
+<p>Generally, in a shell script, you program by working with and manipulating strings. You open a file as a string, extract information from it with string processing tools, and output a string. In fact, there isn&rsquo;t (really) any other datatypes. Strings represent numbers, strings represent tables of data, strings represent the contents of files, etc. This is often pointed to as an example of the simplicity of the unix environment - instead of bothering with all of these meaningless distinctions and confusions caused by many data types, everything only has to deal with one type of data!</p>
+<p>There is a serious problem here though: strings aren&rsquo;t one type of data. Putting encoding issues to the side (which are a problem in any language), and this might seem trivial, when you use strings for all kinds of data it can be difficult for a program to determine what data it&rsquo;s working with. Different programs can also use completely different expected formats for data, leading to a lot of shell scripting being about transforming a string from the output format of one program into the input format of another program using string processing methods that don&rsquo;t understand the contents of what they are modifying, just regex or awk field splitting. This makes it very easy to be running a program on malformed data. Sometimes they complain, often they will just continue and produce malformed output.</p>
+<p>An example from my real life: I wrote a shell script that would rename mp3 files based on the tags they had, in order to make my music library have a consistent filename format. It used the program &ldquo;id3v2&rdquo; to get the tags from the file, used sed and awk to find the data it needed, then renamed the file based on that. This script worked great until one day it started deleting some albums I ran it on. Turns out that sometimes, the tag I was searching for wasn&rsquo;t attached to an mp3, so it was failing to convert and rename the file, but then deleted the original file.</p>
+<p>In any other language, the program would have terminated when the tag wasn&rsquo;t found and say there&rsquo;s a missing key in the tags structure. The shell script just powered on through assuming a song title of an empty string. This problem comes up again and again in shell scripts whenever structured data is being processed - as the shell script does not understand the structure of the data, it resorts to the brute force string manipulation method. This makes dealing with any structured data in a shell script a pain, because you have to either devise a string format for representing the structured data, or &ldquo;parse&rdquo; it using shell tools, which is prone to error.</p>
+<p>Another approach would be to use tools like jq, which <em>do</em> understand the data they&rsquo;re processing. But at that point you have to learn jq query language (essentially a programming language in its own right) and any user is required to install additional software to make your script work.</p>
+<h2 id="learning-10-programming-langauges-to-use-one">Learning 10 programming langauges to use one</h2>
+<p>The shell does almost nothing on its own, instead relying entirely on external programs. This is often given as an example of unix modularity, but really it just creates an awkward (heh, awk-ward) environment where writing a program is less about knowing a language and how to solve the problem you have and instead about knowing how to use many different tools strung together, each that ranges from having a set of arcane command-line flags through to an entire programming language of its own. Take, for example, awk. awk (as well as having a name that sounds like a noise that your stomach makes when you&rsquo;re ill) is a very useful tool for string processing, especially at processing data in a tabular form. It&rsquo;s very rare to see a shell script that doesn&rsquo;t invoke awk at some point, and for good reason - awk is super handy. But to be able to make use of awk, you need to learn the syntax and semantics of the awk language, which are entirely different to that of the shell. This is also true for other tasks. Want to process json files? use jq, which is practically its own programming language too! This extends as far as seeing perl programs embedded inside shell scripts for particularly tricky bits of string processing, which is literally using another general-purpose programming language inside your program to perform some task. It adds to the cognitive load of trying to learn shell scripting or trying to understand any given shell script, as it likely isn&rsquo;t written in shell - it&rsquo;s written in shell, awk, sed, jq, and the arcane flags that make up the syntax of many of the core utilities (which is inconsistent, even between two POSIX-standardised programs)</p>
+<h2 id="error-handling-whats-that">Error handling? what&rsquo;s that?</h2>
+<p>Shell scripts don&rsquo;t handle errors very well, preferring to generally just steamroll ahead with whatever task they have to do. A perfect example is trying to run a program that doesn&rsquo;t exist. Most programming languages will stop you by saying that you are trying to call a function that is undeclared - not a shell script! It&rsquo;ll just move right ahead, and only break by the time it&rsquo;s already executed another line that required the data you got out of that program in order to work. This is catchable, but generally only found after the script has been run and caused some kind of problem.</p>
+<p>This can be solved by writing a big check at the start of your shell script for every single program that it relies on, and wrap every call to every program in an if to check the return code. But nobody does that. Leaving shell scripts as a flimsy pile of unchecked errors most of the tmie.</p>
+<h2 id="the-times-when-everything-isnt-a-string">The times when everything isn&rsquo;t a string</h2>
+<p>I said earlier that everything in shell scripts was a string. This is usually true, except sometimes it&rsquo;s not! For example, when iterating over files in a directory or a list of items, strings are split into individual items implicitly. How useful! Except this implicit item splitting happens other places as well, such as capturing output from a command with $(), which you often won&rsquo;t want. The way around this is to add &ldquo;IFS=&rdquo; on a line on its own at the top of your program, setting the field-splitting seperator to nothing. But this also stops loops from working, and if you are processing strings with awk you don&rsquo;t want the shell doing field seperation. This would probably all be acceptable if split strings were a data structure you could do useful stuff from, like take an index, but you can&rsquo;t. Great!</p>
+<h2 id="variants-and-versions">Variants and versions</h2>
+<p>I&rsquo;m going to keep this short, but there are lots of different shells all at various levels of posix compatibility. It&rsquo;s easy to accidentally use a shell feature that only exists on your platform and not for others and only find out after it breaks in somebody else&rsquo;s setup. This can be avoided using shellcheck or sticking only to POSIX shell, but then you miss out on useful features. So you have two shitty options - use the standard dialect, which is missing important tools, or use your system&rsquo;s dialect which means your script might not run properly other places. Pick your poison, I guess.</p>
+<h2 id="environment-dependence">Environment dependence</h2>
+<p>Regarding things not working properly other places, shell scripts are so environment dependent it&rsquo;s ridiculous. Short of putting a whole ton of checks at the top of your file for the capabilities of various different programs on each system, you can&rsquo;t tell exactly what a system will have - POSIX is meant to solve this but only covers the core utilities, good luck if somebody else has another versions of ffmpeg with a slightly different output format that breaks your script! Additionally, even coreutils can&rsquo;t be relied upon to be POSIX-compatible: GNU stuff requires an environment variable to tell it to conform to POSIX standard.</p>
+<p>On environment variables, it&rsquo;s very possible that a user has set an alias for a program, or made some other environmental change for their interactive environment. Unless the user is very careful, those changes will affect scripts too, in a way that is likely to break them. oops!</p>
+<h2 id="ugly-hacks">Ugly hacks</h2>
+<p>some other miscellaneous ugly things in shell I want to point out:</p>
+<ul>
+<li>xargs, what the fuck even is it</li>
+<li>the syntax for literally everything is wildly inconsistent</li>
+</ul>
+<h2 id="on-shellcheck">On Shellcheck</h2>
+<p>Shellcheck is a great tool and an absolute must-have if you are somehow, hopefully only ever by force, having to write or maintain shell scripts. But it&rsquo;s a patch at best, and no amount of fancy static analysis could understand every possible runtime bug that the shell script way of working almost necessarily causes.</p>
+<h2 id="inconclusion">(in)conclusion</h2>
+<p>stop writing shell scripts. The supposed portability is a lie and an illusion. You&rsquo;d be better writing your script in a language like ruby or python - they are almost as widespread, much more robust, and will have less unexpected behavior that could lead to bad consequences. The effort required to write shell scripts that work around the fundemental brokenness of the system isn&rsquo;t worth it. Better that users install ruby than have to install specific programs that your shell script depends on. Shell scripts are maybe acceptable for programs that only run on one machine, in one environment. But they can still blow up in your face. Use ANYTHING else.</p>
+
+</content>
+<p>
+  
+</p>
+
+  </main>
+  <footer>
+<a href="https://webring.xxiivv.com/#164" target="_blank" rel="noopener">
+  <img id="webring" src="https://webring.xxiivv.com/icon.black.svg" alt="XXIIVV webring"/>
+</a>
+</footer>
+
+    
+</body>
+
+</html>

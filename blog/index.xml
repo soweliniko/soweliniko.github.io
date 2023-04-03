@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>lipu pi soweli Niko</title>
+    <link>https://itwont.work/blog.html</link>
+    <description>Recent content on lipu pi soweli Niko</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <copyright>Copyright © 2020 nihilazo</copyright>
+    <lastBuildDate>Mon, 06 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://itwont.work/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>the Steamed Ham is actually AMAZING</title>
+      <link>https://itwont.work/blog/steam-deck-redemption.html</link>
+      <pubDate>Mon, 06 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://itwont.work/blog/steam-deck-redemption.html</guid>
+      <description>I was wrong about the steam deck.
+My initial experience with the steam deck and post about it were very negative. And it&amp;rsquo;s true that I had a bad initial experience getting shipped a faulty unit. But my second unit wasn&amp;rsquo;t faulty! It turns out the gyro is just configured in a weird way by default for source engine games.
+I&amp;rsquo;ve had my deck for a while now and honestly I love it.</description>
+    </item>
+    
+    <item>
+      <title>Gabe Newell&#39;s Steamed Ham (my Steam Deck experience)</title>
+      <link>https://itwont.work/blog/gabensteamedham.html</link>
+      <pubDate>Tue, 24 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://itwont.work/blog/gabensteamedham.html</guid>
+      <description>Mwu: Hey! Since writing this nico got its Steam Deck working, and now feels much more positive about it !
+I really wanted to love the Steam Deck (or as I am going to probably accidentally call it many times in this post, the Steamed Ham, as I took to calling it through this experience). I really did. It was a relatively elegant, self-contained solution to wanting something to play PC games on that my thinkpad couldn&amp;rsquo;t handle.</description>
+    </item>
+    
+    <item>
+      <title>Site Refresh, and Introducing Mwu!</title>
+      <link>https://itwont.work/blog/refreshmwu.html</link>
+      <pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://itwont.work/blog/refreshmwu.html</guid>
+      <description>So I got a bit tired of my site&amp;rsquo;s style and layout and decided to refresh it. After considering writing my own SSG and the other things that nerds do in this situation, evaluating different alternative hosting/platform options (including giving up on a blog entirely, because this whole web thing is hard) I decided to just change up the theme and some of the layout, as it was easier than migrating to any other platform.</description>
+    </item>
+    
+    <item>
+      <title>Is Beat Saber a Good Dance Game?</title>
+      <link>https://itwont.work/blog/beatsaber.html</link>
+      <pubDate>Fri, 23 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://itwont.work/blog/beatsaber.html</guid>
+      <description>I&amp;rsquo;m a bit of a dance game nerd, and when I say a bit I mean a lot. I&amp;rsquo;m pretty sure I&amp;rsquo;ve played every major dance game out there, I&amp;rsquo;ve got to levels of DDR/ITG where I draw stares at the arcade (even though I still think I&amp;rsquo;m honestly pretty bad at them). Recently, due to my dad making a midlife crisis tech purchase1 and being kind enough to let me use it, I got to actually get some real play time with Beat Saber (after trying it every now and then at friend&amp;rsquo;s places and arcades).</description>
+    </item>
+    
+    <item>
+      <title>On quality, or why I am now just posting things</title>
+      <link>https://itwont.work/blog/quality.html</link>
+      <pubDate>Tue, 06 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://itwont.work/blog/quality.html</guid>
+      <description>I&amp;rsquo;m tired of a problem I always have when writing a blog post, which is that I feel like every post I write has to be, somehow, &amp;ldquo;quality&amp;rdquo;. That I have to provide original and useful thoughts. That I have to make sure every single fact is correct, that everything is properly sourced and referenced, that there isn&amp;rsquo;t a single spelling or grammatical error. That I am making a real, important contribution to a real, important discussion, or I am creating things that are properly worthy of people&amp;rsquo;s time.</description>
+    </item>
+    
+    <item>
+      <title>how I made Sheepspin (the NOVA 2022 wild compo winner)</title>
+      <link>https://itwont.work/blog/sheepspin.html</link>
+      <pubDate>Thu, 18 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://itwont.work/blog/sheepspin.html</guid>
+      <description>This last weekend was the NOVA 2022 demoparty, which was really fun and a great time. I was involved in 5 productions at the party (both solo and group prods). Most were shitposts but my TIC-80 intro, Sheepspin, turned out to win the wild compo. I really didn&amp;rsquo;t expect that but I got a few questions about how it worked and I figured I&amp;rsquo;d do a little writeup of it. This won&amp;rsquo;t be a complete deep dive into everything - there honestly isn&amp;rsquo;t all that much to dive into - so I&amp;rsquo;m going to go scene by scene1 and talk about what is most interesting in that scene, using code snippets and such.</description>
+    </item>
+    
+    <item>
+      <title>Minecraft 1.14 was a failure, but here&#39;s how to (maybe) improve it</title>
+      <link>https://itwont.work/blog/minecraftvillage.html</link>
+      <pubDate>Mon, 25 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://itwont.work/blog/minecraftvillage.html</guid>
+      <description>Minecraft 1.14: Village and Pillage was meant to make villages actually interesting to players and increase their importance and make players actually care about them. But as we reach 1.19 and beyond, it’s clear that this didn’t work, and most players still don’t care about villages beyond being a place to pillage earlygame items, sleep the first few nights, and maybe trap a few villagers to use in farms. So why did it fail?</description>
+    </item>
+    
+    <item>
+      <title>some writing thoughts, and probably leaving gemini</title>
+      <link>https://itwont.work/blog/onwriting.html</link>
+      <pubDate>Thu, 07 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://itwont.work/blog/onwriting.html</guid>
+      <description>Starting a new post is hard. This seems to be a universally accepted fact among people who post stuff (except, maybe, the people who are actually good at it). When you have nothing but ideas and a blank page, and you want to somehow communicate those ideas, in a form that is readable and understandable.
+A lot of writers have special tricks for starting posts - starting with research notes or a system like zettelkasten can be a good start, but is difficult for posts that are based on personal thoughts (like most things I personally write).</description>
+    </item>
+    
+    <item>
+      <title>I responded to a telegram crypto scam, so you don&#39;t have to</title>
+      <link>https://itwont.work/blog/cryptoscam.html</link>
+      <pubDate>Thu, 16 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://itwont.work/blog/cryptoscam.html</guid>
+      <description>The Conversation I got a random telegram message today from somebody called &amp;ldquo;Lucy Abigail&amp;rdquo;, who shared no groups with me and I had never heard of before. Usually, my go-to here is just to ignore the message and block the acccount, but today I was bored and decided to reply.
+&amp;ldquo;Lucy&amp;rdquo; first messaged me claiming that they just wanted to chat, and initially even claimed to not know what bitcoin was:</description>
+    </item>
+    
+    <item>
+      <title>Stop. Writing. Shell. Scripts. (a rant)</title>
+      <link>https://itwont.work/blog/shellrant.html</link>
+      <pubDate>Tue, 17 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://itwont.work/blog/shellrant.html</guid>
+      <description>(warning - this is basically unedited ranting into a text editor. Here there be dragons!)
+Shell scripts are the worst kind of problem, where everybody seems to have just accepted that the problem is there and not worth dealing with. Shell scripts have been normalised as an acceptable part of life on a linux or unix system, but they shouldn&amp;rsquo;t be. Shell scripts are an unacceptably awful form of programming. While many people contend that a good programmer can write a good program in any language, and I mostly agree, shell scripts work so hard against you in writing anything approaching a good program.</description>
+    </item>
+    
+    <item>
+      <title>Smartphones are good, actually*</title>
+      <link>https://itwont.work/blog/phone.html</link>
+      <pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://itwont.work/blog/phone.html</guid>
+      <description>So I recently moved to using a smartphone after being a basic-phone only person for multiple years, and my experience has been actually positive. To the point where I would write a provocatively titled blog post about it for the clicks from annoyed FOSS and permacomputing people at me liking an objectively trash device. And yes, smartphones are objectively trash. They&amp;rsquo;re hard to repair, built for minimum life and maximum profit, and generally suck (as all devices invented by modern capitalism do).</description>
+    </item>
+    
+    <item>
+      <title>I simulated 6,400 bad AI Games of dots and boxes, and discovered nothing</title>
+      <link>https://itwont.work/blog/dotsandboxes.html</link>
+      <pubDate>Sun, 10 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://itwont.work/blog/dotsandboxes.html</guid>
+      <description>Occasionally, I get a silly idea and then decide to make it. Most recently, I decided to create a bunch of bad AI and have them play the children&amp;rsquo;s game &amp;ldquo;Dots and Boxes&amp;rdquo; against each other. Here&amp;rsquo;s how that went.
+Background Dots and Boxes is a pen-and-paper strategy game that is usually played by children, or between children and parents during times when more interesting games are unavailable, like at school or while waiting for food at a family restaurant.</description>
+    </item>
+    
+    <item>
+      <title>Complaining About a Door (for far too long)</title>
+      <link>https://itwont.work/blog/door.html</link>
+      <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://itwont.work/blog/door.html</guid>
+      <description>In his book The Design of Everyday Things, Don Norman used doors as an example of unintuitive design. His primary example was a door that needed to be pushed to open, but had a handle that intuitively would be pulled - leading to confusion and frustration for anybody attempting to pass through it. These confusing doors later got called &amp;ldquo;Norman Doors&amp;rdquo; as a reference to his work. But what if I told you that Norman Doors were only the beginning, and there is a whole WORLD of terrible doors out there?</description>
+    </item>
+    
+    <item>
+      <title>My FAWM 2022 Experience</title>
+      <link>https://itwont.work/blog/fawm.html</link>
+      <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://itwont.work/blog/fawm.html</guid>
+      <description>February is over, and with it, FAWM (february album writing month) is over. I challenged myself to write 14 songs in February, and I successfully wrote&amp;hellip;10! Or 6. Depends on how you count it (10 songs submitted to FAWM, 6 I&amp;rsquo;d consider &amp;ldquo;songs&amp;rdquo; by my own criteria). I actually started FAWM on the 10th, because I had exams and other things that were more important to deal with for the first half of febuary, so I wasn&amp;rsquo;t expecting to reach the 14-song mark.</description>
+    </item>
+    
+    <item>
+      <title>Documenting Projects (and a question)</title>
+      <link>https://itwont.work/blog/projects.html</link>
+      <pubDate>Sun, 27 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://itwont.work/blog/projects.html</guid>
+      <description>I&amp;rsquo;ve been wanting to blog more about projects I&amp;rsquo;ve done and how I did them, sharing those creative things, but I&amp;rsquo;ve run into a few problems that make me unsure if doing so is worth it.
+Firstly, that most of my projects are things that feel fun to me but are actually very boring when I think about them (like the project that prompted this post, my new dance game setup, the main parts of which were making a foam mat and a small bracket).</description>
+    </item>
+    
+    <item>
+      <title>Site updates - new recipes, gear page</title>
+      <link>https://itwont.work/blog/updates202202.html</link>
+      <pubDate>Thu, 03 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://itwont.work/blog/updates202202.html</guid>
+      <description>So I&amp;rsquo;ve made some more stuff on this site, and I thought I&amp;rsquo;d write about it here to get an update out. Firstly, I&amp;rsquo;ve made a page for the gear I use:
+Gear
+Secondly, I uploaded some new recipes!
+Recipes
+That&amp;rsquo;s it! Enjoy your day!</description>
+    </item>
+    
+    <item>
+      <title>It&#39;s sewing, innit? Adding Bat Wings to my Boots!</title>
+      <link>https://itwont.work/blog/bootwings.html</link>
+      <pubDate>Sat, 15 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://itwont.work/blog/bootwings.html</guid>
+      <description>I&amp;rsquo;ve decided that in 2022 I want to learn to sew better, using the sewing machine I got towards the end of 2021. Since I started at my current college I&amp;rsquo;ve had a friend who&amp;rsquo;s look I am not even subtle about the fact I&amp;rsquo;m trying to steal, and she has some awesome boots that have bat wings on them. They came from a brand called Koi Footwear, who are wayyy out of my price range.</description>
+    </item>
+    
+    <item>
+      <title>Using a soundcore bluetooth speaker (or similar) as a meditation timer</title>
+      <link>https://itwont.work/blog/timer.html</link>
+      <pubDate>Tue, 11 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://itwont.work/blog/timer.html</guid>
+      <description>I have a soundcore mini portable speaker. Like every modern device, especially aimed at the smartphone accessory market, it has way too many god damn features including an FM radio, bluetooth, audio playback from SD cards, and probably more things I don&amp;rsquo;t even know it can do (I bought it originally only as a portable speaker to use wired). These features were initially just an annoyance to have to press &amp;ldquo;mode&amp;rdquo; a few times before being able to just use it to play from an aux in, but I&amp;rsquo;ve found a way to put the SD-playback mode to good use, as a meditation timer.</description>
+    </item>
+    
+    <item>
+      <title>My 12 Days of Tea TIER LIST </title>
+      <link>https://itwont.work/blog/tea.html</link>
+      <pubDate>Wed, 05 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://itwont.work/blog/tea.html</guid>
+      <description>I got a box of an assortment of different teas and infusions for Christmas. Over the 12 days of Christmas (entirely coincidentally, as it turns out) I tasted all of these. Here&amp;rsquo;s my opinions on them all and a TIER LIST (because Gemini needed tier list content). All teas are from twinings. (the tier list is using abbreviated names because some of these blends have very long names)
+A: Jasmine, Earl Grey B: Pure Green C: Turmeric, Everyday D: Citrus and ginger, cranberry and lime, lemon and ginger E: Beetroot F: &amp;#34;Glow&amp;#34;, Strawberry and Raspberry, Peppermint Micro-reviews Day 1: Earl Grey.</description>
+    </item>
+    
+    <item>
+      <title>New Site, New Year, and Depth</title>
+      <link>https://itwont.work/blog/newsite.html</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://itwont.work/blog/newsite.html</guid>
+      <description>It&amp;rsquo;s 2022! Here&amp;rsquo;s hoping that 2022 ends up feeling like a new year, and not like 2020 part 3.
+To get the meta stuff out of the way first, you may have noticed that this site has changed. I&amp;rsquo;ve actually rewritten my site generator and restructured this site to be more like a conventional personal website or capsule, with a blog and some static pages. There might be some dead links and bugs for a while while I work stuff out, so be a little patient with this!</description>
+    </item>
+    
+    <item>
+      <title>Book Review: 1984</title>
+      <link>https://itwont.work/blog/1984.html</link>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      
+      <guid>https://itwont.work/blog/1984.html</guid>
+      <description>(note: post date is due to the fact it is a pre-migration post with an unknown date)
+(Review migrated from old bookwyrm profile, apologies for brevity)
+1984 is a classic for a reason. It&amp;rsquo;s often misunderstood or its political and philosophical commentary is taken at such a surface level it gets stripped of meaning, but this is a very good book that is well worth reading. It&amp;rsquo;s a cliche to say that this book is &amp;ldquo;only getting more relevant&amp;rdquo;, but that&amp;rsquo;s because it feels true.</description>
+    </item>
+    
+    <item>
+      <title>Book Review: Entangled Life</title>
+      <link>https://itwont.work/blog/entangledlife.html</link>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      
+      <guid>https://itwont.work/blog/entangledlife.html</guid>
+      <description>(note: post date is due to the fact it is a pre-migration post with an unknown date)
+(Review migrated from old bookwyrm profile, apologies for brevity)
+This book is a very compelling book that is a good introduction to the world of mycology - at least, an introduction that has got me so interested that it&amp;rsquo;s opened up this entire new field of fascination to me (especially radical mycology) that I had absolutely no interest in before.</description>
+    </item>
+    
+    <item>
+      <title>Book Review: How to Take Smart Notes</title>
+      <link>https://itwont.work/blog/smartnotes.html</link>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      
+      <guid>https://itwont.work/blog/smartnotes.html</guid>
+      <description>(note: post date is due to the fact it is a pre-migration post with an unknown date)
+(Review migrated from old bookwyrm profile, apologies for brevity)
+I&amp;rsquo;m not entirely sure how I feel about this book. On the one hand, it was an interesting read, and certainly from it I learned how to use the zettelkasten (and I have started doing so), Although so far I&amp;rsquo;ve found that many of my notes just don&amp;rsquo;t fit the format at all, as most are project specific (which are to be kept seperately).</description>
+    </item>
+    
+    <item>
+      <title>Book Review: The design of everyday things</title>
+      <link>https://itwont.work/blog/designofeverydaythings.html</link>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      
+      <guid>https://itwont.work/blog/designofeverydaythings.html</guid>
+      <description>(note: post date is due to the fact it is a pre-migration post with an unknown date)
+I&amp;rsquo;m becoming conscious of the fact that these &amp;ldquo;reviews&amp;rdquo; aren&amp;rsquo;t exactly reviews in the actually critical sense, or actual reviews of the content of the book, but rather closer to just being a recommendation or non-recommendation of the book depending on how I feel with a small reason why, and that&amp;rsquo;s exactly what this one is too.</description>
+    </item>
+    
+  </channel>
+</rss>

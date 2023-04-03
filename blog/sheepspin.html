@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en-uk">
+
+<head>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>how I made Sheepspin (the NOVA 2022 wild compo winner) | lipu pi soweli Niko</title>
+<meta name="title" content="how I made Sheepspin (the NOVA 2022 wild compo winner)" />
+<meta name="description" content="This last weekend was the NOVA 2022 demoparty, which was really fun and a great time. I was involved in 5 productions at the party (both solo and group prods). Most were shitposts but my TIC-80 intro, Sheepspin, turned out to win the wild compo. I really didn&rsquo;t expect that but I got a few questions about how it worked and I figured I&rsquo;d do a little writeup of it. This won&rsquo;t be a complete deep dive into everything - there honestly isn&rsquo;t all that much to dive into - so I&rsquo;m going to go scene by scene1 and talk about what is most interesting in that scene, using code snippets and such." />
+<meta name="keywords" content="" />
+
+
+<meta property="og:title" content="how I made Sheepspin (the NOVA 2022 wild compo winner)" />
+<meta property="og:description" content="This last weekend was the NOVA 2022 demoparty, which was really fun and a great time. I was involved in 5 productions at the party (both solo and group prods). Most were shitposts but my TIC-80 intro, Sheepspin, turned out to win the wild compo. I really didn&rsquo;t expect that but I got a few questions about how it worked and I figured I&rsquo;d do a little writeup of it. This won&rsquo;t be a complete deep dive into everything - there honestly isn&rsquo;t all that much to dive into - so I&rsquo;m going to go scene by scene1 and talk about what is most interesting in that scene, using code snippets and such." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://itwont.work/blog/sheepspin.html" /><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2022-08-18T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-08-18T00:00:00+00:00" /><meta property="og:site_name" content="lipu pi soweli Niko" />
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="how I made Sheepspin (the NOVA 2022 wild compo winner)"/>
+<meta name="twitter:description" content="This last weekend was the NOVA 2022 demoparty, which was really fun and a great time. I was involved in 5 productions at the party (both solo and group prods). Most were shitposts but my TIC-80 intro, Sheepspin, turned out to win the wild compo. I really didn&rsquo;t expect that but I got a few questions about how it worked and I figured I&rsquo;d do a little writeup of it. This won&rsquo;t be a complete deep dive into everything - there honestly isn&rsquo;t all that much to dive into - so I&rsquo;m going to go scene by scene1 and talk about what is most interesting in that scene, using code snippets and such."/>
+
+
+
+<meta itemprop="name" content="how I made Sheepspin (the NOVA 2022 wild compo winner)">
+<meta itemprop="description" content="This last weekend was the NOVA 2022 demoparty, which was really fun and a great time. I was involved in 5 productions at the party (both solo and group prods). Most were shitposts but my TIC-80 intro, Sheepspin, turned out to win the wild compo. I really didn&rsquo;t expect that but I got a few questions about how it worked and I figured I&rsquo;d do a little writeup of it. This won&rsquo;t be a complete deep dive into everything - there honestly isn&rsquo;t all that much to dive into - so I&rsquo;m going to go scene by scene1 and talk about what is most interesting in that scene, using code snippets and such."><meta itemprop="datePublished" content="2022-08-18T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2022-08-18T00:00:00+00:00" />
+<meta itemprop="wordCount" content="1177">
+<meta itemprop="keywords" content="" />
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+  body {
+    font-family: Verdana, sans-serif;
+    margin: auto;
+    padding: 20px;
+    max-width: 720px;
+    text-align: left;
+    background-color: #fff;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: #444;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  strong,
+  b {
+    color: #222;
+  }
+
+  a {
+    color: #3273dc;
+     
+  }
+
+  .title {
+    text-decoration: none;
+    border: 0;
+  }
+
+  .title span {
+    font-weight: 400;
+  }
+
+  nav a {
+    margin-right: 10px;
+  }
+
+  textarea {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  input {
+    font-size: 16px;
+  }
+
+  content {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    padding: 2px 5px;
+    background-color: #f2f2f2;
+  }
+
+  pre code {
+    color: #222;
+    display: block;
+    padding: 20px;
+    white-space: pre-wrap;
+    font-size: 14px;
+    overflow-x: auto;
+  }
+
+  div.highlight pre {
+    background-color: initial;
+    color: initial;
+  }
+
+  div.highlight code {
+    background-color: unset;
+    color: unset;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: #222;
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px;
+ 
+  }
+
+  .helptext {
+    color: #777;
+    font-size: small;
+  }
+
+  .errorlist {
+    color: #eba613;
+    font-size: small;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: #8b6fcb;
+  }
+
+  img#mwu {
+    max-width: 10%;
+  }
+
+  img#small-mwu {
+    max-width: 5%;
+  }
+  img#webring {
+    max-width: 10%;
+    }
+  div.mwu p {
+    display:inline;
+  }
+
+  div.mwubox {
+    border-style:solid;
+    border-color:#444;
+    border-width: 0.1em;
+    padding: 0em 1em;
+  }
+
+  div.mwubox img#mwu {
+  float: left;
+  margin-right: 1em;
+}
+
+  div.mwubox h4 {
+    text-align: center;
+  }
+
+
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #333;
+      color: #ddd;
+    }
+
+    img#webring {
+      filter: invert(100%);
+    }
+
+    div.mwubox {
+        border-color:#ddd;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    strong,
+    b {
+      color: #eee;
+    }
+
+    a {
+      color: #8cc2dd;
+    }
+
+    code {
+      background-color: #777;
+    }
+
+    pre code {
+      color: #ddd;
+    }
+
+    blockquote {
+      color: #ccc;
+    }
+
+    textarea,
+    input {
+      background-color: #252525;
+      color: #ddd;
+    }
+
+    .helptext {
+      color: #aaa;
+    }
+  }
+
+</style>
+
+</head>
+
+<body>
+  <header><a href="../" class="title">
+
+  <h2><img id="mwu" src="https://itwont.work/images/mwu.svg" /> lipu pi soweli Niko</h2>
+</a>
+<nav><a href="../">Home</a>
+
+<a href="../books.html"></a>
+
+<a href="../about.html">About</a>
+
+<a href="../music.html">Music</a>
+
+<a href="../recipes.html">Recipes</a>
+
+
+<a href="https://itwont.work/blog">Blog</a>
+
+</nav>
+</header>
+  <main>
+
+<h1>how I made Sheepspin (the NOVA 2022 wild compo winner)</h1>
+<p>
+  <i>
+    <time datetime='2022-08-18' pubdate>
+      18 Aug, 2022
+    </time>
+  </i>
+</p>
+
+<content>
+  <p>This last weekend was the NOVA 2022 demoparty, which was really fun and a great time. I was involved in 5 productions at the party (both solo and group prods). Most were shitposts but my TIC-80 intro, Sheepspin, turned out to win the wild compo. I really didn&rsquo;t expect that but I got a few questions about how it worked and I figured I&rsquo;d do a little writeup of it. This won&rsquo;t be a complete deep dive into everything - there honestly isn&rsquo;t all that much to dive into - so I&rsquo;m going to go scene by scene<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> and talk about what is most interesting in that scene, using code snippets and such. I&rsquo;m assuming that you&rsquo;ve seen the demo if you&rsquo;re reading this, and have basic knowledge of TIC-80 already.</p>
+<p><a href="http://tic80.com/play?cart=2971">Watch sheepspin here!</a></p>
+<h2 id="the-scroller">The Scroller</h2>
+<p>The scroller itself is very simple and made by just printing text with the built in <code>print()</code> function in tic80. I print it a few times in different colors with slight offsets to make it a bit more interesting.</p>
+<p>The background came from something I made while practising sizecoding, but I ended up liking it as a background. I couldn&rsquo;t explain how it works because I pretty much made it by accident, but you can find the code that generates it in the source (the <code>intro_bg()</code> function). 
+The wavy effect is done by changing  the screen offset memory address ( <code>0x3ff9</code>) each &ldquo;scanline&rdquo; in the SCN function:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lua" data-lang="lua"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">SCN</span>(l)
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span> scene <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span> <span style="color:#f92672">or</span> scene <span style="color:#f92672">==</span> <span style="color:#ae81ff">1</span> <span style="color:#66d9ef">then</span>
+</span></span><span style="display:flex;"><span>		poke(<span style="color:#ae81ff">0x3ff9</span>,math.sin(l<span style="color:#f92672">/</span><span style="color:#ae81ff">8</span>)<span style="color:#f92672">*</span><span style="color:#ae81ff">4</span>)
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
+</span></span></code></pre></div><p>The occlusion of the background in the first part of the scene is done by filling the screen in the OVR function (overlay) in color 1 and then drawing a circle in color 0. The OVR function replaces color 0 with whatever is being drawn in the TIC function and isn&rsquo;t affected by SCN, so I can use this to occlude parts of the background with a bouncing circle (I also draw the scroller in the OVR layer to avoid getting affected by SCN changes). The transition from occluded to unoccluded is synchronised with the music by reading the memory address <code>0x13ffd</code> which contains the currently playing pattern in the song (this is how I synchronise pretty much every synchronised effect in the demo).</p>
+<h2 id="the-rotating-sheep">The Rotating Sheep</h2>
+<p>I knew as soon as this became an intro rather than just a scroller that I wanted to have a rotating sheep on it, as rotating sheep became an unofficial theme of NOVA 2022 (thanks ToBach). I wanted the sheep to rotate in 3d so I had to build a 3d rendering system for tic-80 from scratch.</p>
+<p>Rendering a 3d object starts with a mesh, a collection of triangles in 3d space. These then have to be projected (converted from 3d coordinates to 2d screen coordinates) and rasterised (actually drawn to the screen as triangles). There are other steps that most renderers take, like shading, but I completely ignored these for this intro. In TIC-80&rsquo;s case, basic rasterising is already solved by the tri() function, so drawing 3d objects only requires new code for projection.</p>
+<p>Projection is usually somewhat complex, and when I first started looking into 3d every guide I could find covered perspective projection, which involves some <a href="https://en.wikipedia.org/wiki/3D_projection#Perspective_projection">pretty gnarly math</a>, but thanks to some helpful folks on the FieldFX discord I decided to use the far simpler orthographic projection.</p>
+<p>I store a mesh as a nesting of lua tables, with a mesh containing tris and a tri containing x,y,z points and a color. Each point is in the range -1 to 1 in order to simplify transformation math. Projecting this using an orthographic projection is, essentially, just ignoring the z value and drawing all the triangles on the screen in z-order, so the triangles that are towards the back of the model are drawn over by those at the front.<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>. So projecting for the TIC-80 only requires scaling the points from -1 to 1 to (say) 1 to 100.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lua" data-lang="lua"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">project</span>(v)
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">local</span> x <span style="color:#f92672">=</span> v.x 
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">local</span> y <span style="color:#f92672">=</span> <span style="color:#f92672">-</span>v.y 
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">local</span> z <span style="color:#f92672">=</span> v.z
+</span></span><span style="display:flex;"><span>	
+</span></span><span style="display:flex;"><span> 	<span style="color:#66d9ef">local</span> x <span style="color:#f92672">=</span> (x <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>)<span style="color:#f92672">/</span><span style="color:#ae81ff">2</span> <span style="color:#f92672">*</span> <span style="color:#ae81ff">100</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">40</span>
+</span></span><span style="display:flex;"><span> 	<span style="color:#66d9ef">local</span> y <span style="color:#f92672">=</span> (y <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>)<span style="color:#f92672">/</span><span style="color:#ae81ff">2</span> <span style="color:#f92672">*</span> <span style="color:#ae81ff">100</span> 
+</span></span><span style="display:flex;"><span> 	<span style="color:#66d9ef">local</span> z <span style="color:#f92672">=</span> (z <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>)<span style="color:#f92672">/</span><span style="color:#ae81ff">2</span> <span style="color:#f92672">*</span> <span style="color:#ae81ff">100</span> <span style="color:#75715e">-- scaling for screen</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">return</span> x, y, z
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>	
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">z_order</span>(a,b)
+</span></span><span style="display:flex;"><span>	 <span style="color:#66d9ef">return</span> (a.p1.z<span style="color:#f92672">+</span>a.p2.z<span style="color:#f92672">+</span>a.p3.z)<span style="color:#f92672">&lt;</span>(b.p1.z<span style="color:#f92672">+</span>b.p2.z<span style="color:#f92672">+</span>b.p3.z)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">TIC</span>()
+</span></span><span style="display:flex;"><span>	[...]
+</span></span><span style="display:flex;"><span>	table.sort(screenmesh,z_order)
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">for</span> i, tr <span style="color:#66d9ef">in</span> pairs(screenmesh) <span style="color:#66d9ef">do</span>
+</span></span><span style="display:flex;"><span>		x1,y1,z1 <span style="color:#f92672">=</span> project(tr.p1)
+</span></span><span style="display:flex;"><span>		x2,y2,z2 <span style="color:#f92672">=</span> project(tr.p2)
+</span></span><span style="display:flex;"><span>		x3,y3,z3 <span style="color:#f92672">=</span> project(tr.p3) 
+</span></span><span style="display:flex;"><span>		tri(x1,y1,x2,y2,x3,y3, tr.c)
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>	[...]
+</span></span></code></pre></div><p>This code snippet contains the entirety of the logic used to draw the sheep in sheepspin. Seriously.</p>
+<p>To create models that this can render, I created them in blender and assigned materials named 1,2,3, etc for each tic80  palette color, and then used <a href="http://tic80.com/play?cart=2972">an obj converter I wrote</a> to convert them. obj is a (fairly) simple format, so you can probably understand it from reading the source.</p>
+<p>To rotate the sheep, I use this math, which I <em>think</em> is a pretty usual rotation matrix. I don&rsquo;t know how it works. greets to dave84 who wrote it!</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lua" data-lang="lua"><span style="display:flex;"><span>	tx <span style="color:#f92672">=</span> v.x <span style="color:#f92672">*</span> m.cos(angle) <span style="color:#f92672">-</span> v.z <span style="color:#f92672">*</span> m.sin(angle)
+</span></span><span style="display:flex;"><span>  	ty <span style="color:#f92672">=</span> v.y
+</span></span><span style="display:flex;"><span>  	tz <span style="color:#f92672">=</span> v.x <span style="color:#f92672">*</span> m.sin(angle) <span style="color:#f92672">+</span> v.z <span style="color:#f92672">*</span> m.cos(angle)
+</span></span></code></pre></div><h2 id="space">Space</h2>
+<p>The sheep then bounces off into space. The bouncing was a bit annoying to do but I ended up doing something that (and this is a theme of this post) I found while hacking around and don&rsquo;t really understand. The background stars are a set of x and y positions stored in a table - each frame they are moved by 1 pixel and then any that go off-screen are redrawn at the other edge of the screen with a random y position, which was pretty simple. I was initially planning a proper starfield but found that the simpler setup worked better for the &ldquo;story&rdquo;.</p>
+<p>The aliens are sprites, the alien ship is made of ellipses. I added a constant sine &ldquo;bobbing&rdquo; to the ship to make it more interesting. The abduction is just a triangle drawn from the ship and then scaling down the sheep model. It&rsquo;s at a weird angle because then I didn&rsquo;t have to do the math to actually scale the sheep around a point other than the 3d scene origin.</p>
+<p>The circles in the outro are another thing I just made by hacking around and don&rsquo;t quite understand, here they are:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lua" data-lang="lua"><span style="display:flex;"><span><span style="color:#66d9ef">for</span> i<span style="color:#f92672">=</span><span style="color:#ae81ff">8</span>,<span style="color:#ae81ff">240</span>,<span style="color:#ae81ff">8</span> <span style="color:#66d9ef">do</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">for</span> y<span style="color:#f92672">=</span><span style="color:#ae81ff">4</span>,<span style="color:#ae81ff">136</span>,<span style="color:#ae81ff">8</span> <span style="color:#66d9ef">do</span>
+</span></span><span style="display:flex;"><span>		circ(i<span style="color:#f92672">+</span>y<span style="color:#f92672">/</span><span style="color:#ae81ff">2</span>,
+</span></span><span style="display:flex;"><span>			y,
+</span></span><span style="display:flex;"><span>			sin(i<span style="color:#f92672">/</span><span style="color:#ae81ff">16</span><span style="color:#f92672">+</span>(t<span style="color:#f92672">/</span><span style="color:#ae81ff">10</span>))<span style="color:#f92672">*</span><span style="color:#ae81ff">4</span>,
+</span></span><span style="display:flex;"><span>				(i<span style="color:#f92672">%</span><span style="color:#ae81ff">3</span>)<span style="color:#f92672">+</span><span style="color:#ae81ff">9</span>)
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
+</span></span></code></pre></div><p>So there we go! I made a compo winning demo while not really understanding half the source code, despite writing it. Huge thanks to everybody who helped me out with this as my first real demo production!</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>note to anybody diving into the source, I&rsquo;m talking about scenes in the sense of the flow of the demo, rather than in the sense of the <code>scene</code> variable.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>this is very suboptimal for anything that has to run quickly as you are drawing many out of sight triangles, backface culling and other techniques are used to speed this up but I didn&rsquo;t implement them for this, as I didn&rsquo;t need to.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+</content>
+<p>
+  
+</p>
+
+  </main>
+  <footer>
+<a href="https://webring.xxiivv.com/#164" target="_blank" rel="noopener">
+  <img id="webring" src="https://webring.xxiivv.com/icon.black.svg" alt="XXIIVV webring"/>
+</a>
+</footer>
+
+    
+</body>
+
+</html>
