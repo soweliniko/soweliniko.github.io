@@ -1,0 +1,227 @@
+@font-face {
+    font-family:topaz;
+    src: url(fonts/TopazPlus.eot);
+}
+
+/* FF3.5+/Safari/Opera10 */
+@font-face {
+    font-family:topaz;
+    src: url(fonts/TopazPlus.ttf) format("truetype");
+}
+
+/* main CSS */
+#titlebar {
+  display: flex;
+  background-color: #ffffff;
+  padding-left: 5px;
+
+}
+
+#titlebar.hr {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+main {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:10px;
+  padding: 5px;
+  background-color: #aaaaaa;
+  border-style: solid;
+  /* note: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Backgrounds_and_Borders/Border-image_generator */
+  border-image-source: url(ui-assets/border.png);
+  border-image-slice: 41 83 105 32;
+  border-image-width: 20.5px 41.5px 52.5px 16px
+}
+
+#content {
+  max-width: 90%;
+  margin: auto;
+}
+
+#screen {
+  background-color: #aaa; /* this is where the "wallpaper" background goes */
+}
+nav {
+
+  margin: 0;
+  float:left;
+  flex-grow: 1;
+
+}
+
+  body {
+    font-family: topaz, sans-serif;
+    margin: auto;
+    padding: 5px;
+    max-width: 720px;
+    text-align: left;
+    background-color: #aaa;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: #000;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  strong,
+  b {
+    color: #222;
+  }
+
+  a {
+    color: #3273dc;
+    /*color: #ff5e6c;*/
+  }
+
+  .title {
+    text-decoration: none;
+    border: 0;
+  }
+
+  .title span {
+    font-weight: 400;
+  }
+
+  nav a {
+    margin-right: 10px;
+    color: #000000;
+    text-decoration: none;
+  }
+
+  textarea {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  input {
+    font-size: 16px;
+  }
+
+  content {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    padding: 2px 5px;
+    font-family: topaz;
+    background-color: #f2f2f2;
+  }
+
+  pre code {
+    color: #222;
+    display: block;
+    padding: 20px;
+    white-space: pre-wrap;
+    font-size: 14px;
+    overflow-x: auto;
+  }
+
+  div.highlight pre {
+    background-color: initial;
+    color: initial;
+  }
+
+  div.highlight code {
+    background-color: unset;
+    color: unset;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: #222;
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px;
+/*    text-align: center; */
+  }
+
+  .helptext {
+    color: #777;
+    font-size: small;
+  }
+
+  .errorlist {
+    color: #eba613;
+    font-size: small;
+  }
+
+  /* blog posts */
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: #8b6fcb;
+  }
+
+  /* mwu */
+  img#mwu {
+    max-width: 10%;
+  }
+
+  img#small-mwu {
+    max-width: 5%;
+  }
+
+  div.mwu p {
+    display:inline;
+  }
+
+  div.mwubox {
+    border-style:solid;
+    border-color:#444;
+    border-width: 0.1em;
+    padding: 0em 1em;
+  }
+
+  div.mwubox img#mwu {
+  float: left;
+  margin-right: 1em;
+}
+
+  div.mwubox h4 {
+    text-align: center;
+  }
+
+/* individual decorative items */
+
+img#switcher{
+  align-self: end;
+  width: 1.6em; /* try and match workbench close enough */
+}
+
+#title-shadow {
+ background-color:#000000;
+ padding-bottom: 2px;
+ padding-right: 2px;
+ width:100%
+}
