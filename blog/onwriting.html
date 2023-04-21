@@ -22,7 +22,6 @@ A lot of writers have special tricks for starting posts - starting with research
 
 
 
-
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="some writing thoughts, and probably leaving gemini"/>
 <meta name="twitter:description" content="Starting a new post is hard. This seems to be a universally accepted fact among people who post stuff (except, maybe, the people who are actually good at it). When you have nothing but ideas and a blank page, and you want to somehow communicate those ideas, in a form that is readable and understandable.
@@ -38,227 +37,15 @@ A lot of writers have special tricks for starting posts - starting with research
 <meta itemprop="keywords" content="" />
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
-  <style>
-  body {
-    font-family: Verdana, sans-serif;
-    margin: auto;
-    padding: 20px;
-    max-width: 720px;
-    text-align: left;
-    background-color: #fff;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    line-height: 1.5;
-    color: #444;
-  }
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  strong,
-  b {
-    color: #222;
-  }
-
-  a {
-    color: #3273dc;
-     
-  }
-
-  .title {
-    text-decoration: none;
-    border: 0;
-  }
-
-  .title span {
-    font-weight: 400;
-  }
-
-  nav a {
-    margin-right: 10px;
-  }
-
-  textarea {
-    width: 100%;
-    font-size: 16px;
-  }
-
-  input {
-    font-size: 16px;
-  }
-
-  content {
-    line-height: 1.6;
-  }
-
-  table {
-    width: 100%;
-  }
-
-  img {
-    max-width: 100%;
-  }
-
-  code {
-    padding: 2px 5px;
-    background-color: #f2f2f2;
-  }
-
-  pre code {
-    color: #222;
-    display: block;
-    padding: 20px;
-    white-space: pre-wrap;
-    font-size: 14px;
-    overflow-x: auto;
-  }
-
-  div.highlight pre {
-    background-color: initial;
-    color: initial;
-  }
-
-  div.highlight code {
-    background-color: unset;
-    color: unset;
-  }
-
-  blockquote {
-    border-left: 1px solid #999;
-    color: #222;
-    padding-left: 20px;
-    font-style: italic;
-  }
-
-  footer {
-    padding: 25px;
- 
-  }
-
-  .helptext {
-    color: #777;
-    font-size: small;
-  }
-
-  .errorlist {
-    color: #eba613;
-    font-size: small;
-  }
-
-   
-  ul.blog-posts {
-    list-style-type: none;
-    padding: unset;
-  }
-
-  ul.blog-posts li {
-    display: flex;
-  }
-
-  ul.blog-posts li span {
-    flex: 0 0 130px;
-  }
-
-  ul.blog-posts li a:visited {
-    color: #8b6fcb;
-  }
-
-  img#mwu {
-    max-width: 10%;
-  }
-
-  img#small-mwu {
-    max-width: 5%;
-  }
-  img#webring {
-    max-width: 10%;
-    }
-  div.mwu p {
-    display:inline;
-  }
-
-  div.mwubox {
-    border-style:solid;
-    border-color:#444;
-    border-width: 0.1em;
-    padding: 0em 1em;
-  }
-
-  div.mwubox img#mwu {
-  float: left;
-  margin-right: 1em;
-}
-
-  div.mwubox h4 {
-    text-align: center;
-  }
-
-
-  @media (prefers-color-scheme: dark) {
-    body {
-      background-color: #333;
-      color: #ddd;
-    }
-
-    img#webring {
-      filter: invert(100%);
-    }
-
-    div.mwubox {
-        border-color:#ddd;
-    }
-
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    strong,
-    b {
-      color: #eee;
-    }
-
-    a {
-      color: #8cc2dd;
-    }
-
-    code {
-      background-color: #777;
-    }
-
-    pre code {
-      color: #ddd;
-    }
-
-    blockquote {
-      color: #ccc;
-    }
-
-    textarea,
-    input {
-      background-color: #252525;
-      color: #ddd;
-    }
-
-    .helptext {
-      color: #aaa;
-    }
-  }
-
-</style>
+  <link rel="stylesheet" href="../style.css" />
 
 </head>
 
 <body>
-  <header><a href="../" class="title">
-
-  <h2><img id="mwu" src="https://www.itwont.work/images/mwu.svg" /> lipu pi soweli Niko</h2>
-</a>
-<nav><a href="../">Home</a>
+  <div id="screen" aria-hidden=true>
+    <header><div aria-hidden=true id="title-shadow">
+  <div id="titlebar">
+  <nav><a href="../">Nico Webbench 3.1</a>
 
 <a href="../books.html"></a>
 
@@ -272,10 +59,12 @@ A lot of writers have special tricks for starting posts - starting with research
 <a href="https://www.itwont.work/blog">Blog</a>
 
 </nav>
-
-<hr />
+  <img id="switcher" src="../ui-assets/switcher.png" aria-hidden=true />
+  </div>
+<div>
 </header>
-  <main>
+    <main>
+      <div id=content aria-hidden=true>
 
 <h1>some writing thoughts, and probably leaving gemini</h1>
 <p>
@@ -289,16 +78,16 @@ A lot of writers have special tricks for starting posts - starting with research
 <content>
   <p>Starting a new post is hard. This seems to be a universally accepted fact among people who post stuff (except, maybe, the people who are actually good at it). When you have nothing but ideas and a blank page, and you want to somehow communicate those ideas, in a form that is readable and understandable.</p>
 <p>A lot of writers have special tricks for starting posts - starting with research notes or a system like zettelkasten can be a good start, but is difficult for posts that are based on personal thoughts (like most things I personally write). Another is turning off the display of the computer they are writing on, to get a first draft out quickly without overthinking and editing it as they go. Forums like NaNoWriMo are treasure troves of the tricks that writers use to get themselves to actually start writing.</p>
-<p>For a long time, I thought the problem I had with writing things, especially starting to write things, was getting the tools right. A good writing environment needs to be focused, provide the formatting features you want, and not have too many extras and additional distractions. I had this problem with SSGs that required a bunch of metadata and front-matter: Before I could actually get to writing, my flow was stopped by worrying about how my writing was going to be processed by the publishing tools I used. I&rsquo;ve tried various setups to try and provide myself a more focused writing environment, both hardware and software - it&rsquo;s almost a constant pursuit for me.</p>
+<p>For a long time, I thought the problem I had with writing things, especially starting to write things, was getting the tools right. A good writing environment needs to be focused, provide the formatting features you want, and not have too many extras and additional distractions. I had this problem with SSGs that required a bunch of metadata and front-matter: Before I could actually get to writing, my flow was stopped by worrying about how my writing was going to be processed by the publishing tools I used. I've tried various setups to try and provide myself a more focused writing environment, both hardware and software - it's almost a constant pursuit for me.</p>
 <p>This is part of what drew me to the Gemini protocol. The simplicity of the file format and the focus on lightweight tools promised a content-focused environment, one where I could worry only about what I wanted to say, and avoid my tendency to stop writing in order to tweak a stylesheet, or to tweak my static site generator for about the 50th time. With gemini, I could just place files written in a writing-friendly format (HTML sucks to write in) into a directory and have that be an online presence, a log, a whatever. It minimises the amount of worrying about the technology to turn it into purely thinking about the writing.</p>
-<p>However, this didn&rsquo;t last long. I wanted to mirror my gemini site over both gemini and the web, since most people know me through the web and that&rsquo;s the most common way to read written stuff on the internet, thus I wrote a gemini to HTML converter. I wanted to have a rolling log of incoming posts, so I wrote a blog page generator. Pretty soon these both together became linluwi, the custom SSG that I use to publish this site. It&rsquo;s pretty minimal (a few hundred lines of fennel script) but has developed its own required metadata, input formatting conventions (starting with gemtext, but these are gradually expanding to other features too, leading to an ad-hoc superset of gemtext) and so on. I&rsquo;m always tweaking and working on it, and the web version of my site still has a stylesheet I mess with periodically. Gemini hasn&rsquo;t solved the writing problems for me that I thought it&rsquo;d solve. Even when stripped down to the simplest, least distraction-laden possible setup, I still struggled to turn ideas into posts.</p>
-<p>The impact of overly-complex tools upon writing is something I focused upon too much for a long time. Trying to find the perfect text editor, or word processor, or site generator, CMS, trying to make my writing process as quick and easy as possible for me to try and maximise the amount I&rsquo;d actually write. This basically has done nothing, because the fundamental problem of being bad at starting a post doesn&rsquo;t change, no matter what format you&rsquo;re writing in.</p>
-<p>More recently, as I&rsquo;ve been writing more again for this site (mostly through the method of stopping worrying about the &ldquo;quality&rdquo; of my posts) and improving my ability to start posts, I have started to discover some ways in which the technology I use does actually shape my writing and impede my &ldquo;flow&rdquo;. The things I write on this site are mostly blog-post style things, and there are things that are very common in blog post writing that I want to use in my own writing, for example having an inline link to a source for something when you mention it[1], and I have found that a new worry that I have when writing is trying to fit what I want to write within the constraints of what gemini allows. Inline links and images, sidebars, etc are part of how I want to write - and they are things I have to work around not having, which takes me out of the writing itself. These technical features, which gemini has decided against having support for (on understandable technical grounds) are also features of the medium and style I want to write in, and one that gemini doesn&rsquo;t really support.</p>
+<p>However, this didn't last long. I wanted to mirror my gemini site over both gemini and the web, since most people know me through the web and that's the most common way to read written stuff on the internet, thus I wrote a gemini to HTML converter. I wanted to have a rolling log of incoming posts, so I wrote a blog page generator. Pretty soon these both together became linluwi, the custom SSG that I use to publish this site. It's pretty minimal (a few hundred lines of fennel script) but has developed its own required metadata, input formatting conventions (starting with gemtext, but these are gradually expanding to other features too, leading to an ad-hoc superset of gemtext) and so on. I'm always tweaking and working on it, and the web version of my site still has a stylesheet I mess with periodically. Gemini hasn't solved the writing problems for me that I thought it'd solve. Even when stripped down to the simplest, least distraction-laden possible setup, I still struggled to turn ideas into posts.</p>
+<p>The impact of overly-complex tools upon writing is something I focused upon too much for a long time. Trying to find the perfect text editor, or word processor, or site generator, CMS, trying to make my writing process as quick and easy as possible for me to try and maximise the amount I'd actually write. This basically has done nothing, because the fundamental problem of being bad at starting a post doesn't change, no matter what format you're writing in.</p>
+<p>More recently, as I've been writing more again for this site (mostly through the method of stopping worrying about the &quot;quality&quot; of my posts) and improving my ability to start posts, I have started to discover some ways in which the technology I use does actually shape my writing and impede my &quot;flow&quot;. The things I write on this site are mostly blog-post style things, and there are things that are very common in blog post writing that I want to use in my own writing, for example having an inline link to a source for something when you mention it[1], and I have found that a new worry that I have when writing is trying to fit what I want to write within the constraints of what gemini allows. Inline links and images, sidebars, etc are part of how I want to write - and they are things I have to work around not having, which takes me out of the writing itself. These technical features, which gemini has decided against having support for (on understandable technical grounds) are also features of the medium and style I want to write in, and one that gemini doesn't really support.</p>
 <p>So this might be my last post to be hosted on gemini. Gemini is a cool project with some cool ideas (despite technical problems, which I might address in a different post) but it is not the medium for what I want to write. I want to write blog-shaped content, and gemini constrains me into a gemini-shaped box.</p>
-<p>P.S. don&rsquo;t worry, I&rsquo;m still going to keep the website fairly basic and free of javascript and such. It&rsquo;s still simple HTML. Just expect images, inline links, and so on.</p>
+<p>P.S. don't worry, I'm still going to keep the website fairly basic and free of javascript and such. It's still simple HTML. Just expect images, inline links, and so on.</p>
 <hr>
 <ol>
-<li>this isn&rsquo;t the only way - you could always put the link after the paragraph, insert a footnote, or have a citation. But these aren&rsquo;t part of the conventions and styles of the kinda informal internet writing I want to do here.</li>
+<li>this isn't the only way - you could always put the link after the paragraph, insert a footnote, or have a citation. But these aren't part of the conventions and styles of the kinda informal internet writing I want to do here.</li>
 </ol>
 
 </content>
@@ -306,14 +95,11 @@ A lot of writers have special tricks for starting posts - starting with research
   
 </p>
 
-  </main>
-  <footer>
-<a href="https://webring.xxiivv.com/#164" target="_blank" rel="noopener">
-  <img id="webring" src="https://webring.xxiivv.com/icon.black.svg" alt="XXIIVV webring"/>
-</a>
-</footer>
+      </div>
+    </main>
+    <footer></footer>
 
-    
+  </div>
 </body>
 
 </html>

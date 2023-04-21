@@ -7,13 +7,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>I simulated 6,400 bad AI Games of dots and boxes, and discovered nothing | lipu pi soweli Niko</title>
 <meta name="title" content="I simulated 6,400 bad AI Games of dots and boxes, and discovered nothing" />
-<meta name="description" content="Occasionally, I get a silly idea and then decide to make it. Most recently, I decided to create a bunch of bad AI and have them play the children&rsquo;s game &ldquo;Dots and Boxes&rdquo; against each other. Here&rsquo;s how that went.
+<meta name="description" content="Occasionally, I get a silly idea and then decide to make it. Most recently, I decided to create a bunch of bad AI and have them play the children&#39;s game &quot;Dots and Boxes&quot; against each other. Here&#39;s how that went.
 Background Dots and Boxes is a pen-and-paper strategy game that is usually played by children, or between children and parents during times when more interesting games are unavailable, like at school or while waiting for food at a family restaurant." />
 <meta name="keywords" content="" />
 
 
 <meta property="og:title" content="I simulated 6,400 bad AI Games of dots and boxes, and discovered nothing" />
-<meta property="og:description" content="Occasionally, I get a silly idea and then decide to make it. Most recently, I decided to create a bunch of bad AI and have them play the children&rsquo;s game &ldquo;Dots and Boxes&rdquo; against each other. Here&rsquo;s how that went.
+<meta property="og:description" content="Occasionally, I get a silly idea and then decide to make it. Most recently, I decided to create a bunch of bad AI and have them play the children&#39;s game &quot;Dots and Boxes&quot; against each other. Here&#39;s how that went.
 Background Dots and Boxes is a pen-and-paper strategy game that is usually played by children, or between children and parents during times when more interesting games are unavailable, like at school or while waiting for food at a family restaurant." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://www.itwont.work/blog/dotsandboxes.html" /><meta property="article:section" content="blog" />
@@ -22,243 +22,30 @@ Background Dots and Boxes is a pen-and-paper strategy game that is usually playe
 
 
 
-
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="I simulated 6,400 bad AI Games of dots and boxes, and discovered nothing"/>
-<meta name="twitter:description" content="Occasionally, I get a silly idea and then decide to make it. Most recently, I decided to create a bunch of bad AI and have them play the children&rsquo;s game &ldquo;Dots and Boxes&rdquo; against each other. Here&rsquo;s how that went.
+<meta name="twitter:description" content="Occasionally, I get a silly idea and then decide to make it. Most recently, I decided to create a bunch of bad AI and have them play the children&#39;s game &quot;Dots and Boxes&quot; against each other. Here&#39;s how that went.
 Background Dots and Boxes is a pen-and-paper strategy game that is usually played by children, or between children and parents during times when more interesting games are unavailable, like at school or while waiting for food at a family restaurant."/>
 
 
 
 <meta itemprop="name" content="I simulated 6,400 bad AI Games of dots and boxes, and discovered nothing">
-<meta itemprop="description" content="Occasionally, I get a silly idea and then decide to make it. Most recently, I decided to create a bunch of bad AI and have them play the children&rsquo;s game &ldquo;Dots and Boxes&rdquo; against each other. Here&rsquo;s how that went.
+<meta itemprop="description" content="Occasionally, I get a silly idea and then decide to make it. Most recently, I decided to create a bunch of bad AI and have them play the children&#39;s game &quot;Dots and Boxes&quot; against each other. Here&#39;s how that went.
 Background Dots and Boxes is a pen-and-paper strategy game that is usually played by children, or between children and parents during times when more interesting games are unavailable, like at school or while waiting for food at a family restaurant."><meta itemprop="datePublished" content="2022-04-10T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2022-04-10T00:00:00+00:00" />
 <meta itemprop="wordCount" content="931">
 <meta itemprop="keywords" content="" />
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
-  <style>
-  body {
-    font-family: Verdana, sans-serif;
-    margin: auto;
-    padding: 20px;
-    max-width: 720px;
-    text-align: left;
-    background-color: #fff;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    line-height: 1.5;
-    color: #444;
-  }
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  strong,
-  b {
-    color: #222;
-  }
-
-  a {
-    color: #3273dc;
-     
-  }
-
-  .title {
-    text-decoration: none;
-    border: 0;
-  }
-
-  .title span {
-    font-weight: 400;
-  }
-
-  nav a {
-    margin-right: 10px;
-  }
-
-  textarea {
-    width: 100%;
-    font-size: 16px;
-  }
-
-  input {
-    font-size: 16px;
-  }
-
-  content {
-    line-height: 1.6;
-  }
-
-  table {
-    width: 100%;
-  }
-
-  img {
-    max-width: 100%;
-  }
-
-  code {
-    padding: 2px 5px;
-    background-color: #f2f2f2;
-  }
-
-  pre code {
-    color: #222;
-    display: block;
-    padding: 20px;
-    white-space: pre-wrap;
-    font-size: 14px;
-    overflow-x: auto;
-  }
-
-  div.highlight pre {
-    background-color: initial;
-    color: initial;
-  }
-
-  div.highlight code {
-    background-color: unset;
-    color: unset;
-  }
-
-  blockquote {
-    border-left: 1px solid #999;
-    color: #222;
-    padding-left: 20px;
-    font-style: italic;
-  }
-
-  footer {
-    padding: 25px;
- 
-  }
-
-  .helptext {
-    color: #777;
-    font-size: small;
-  }
-
-  .errorlist {
-    color: #eba613;
-    font-size: small;
-  }
-
-   
-  ul.blog-posts {
-    list-style-type: none;
-    padding: unset;
-  }
-
-  ul.blog-posts li {
-    display: flex;
-  }
-
-  ul.blog-posts li span {
-    flex: 0 0 130px;
-  }
-
-  ul.blog-posts li a:visited {
-    color: #8b6fcb;
-  }
-
-  img#mwu {
-    max-width: 10%;
-  }
-
-  img#small-mwu {
-    max-width: 5%;
-  }
-  img#webring {
-    max-width: 10%;
-    }
-  div.mwu p {
-    display:inline;
-  }
-
-  div.mwubox {
-    border-style:solid;
-    border-color:#444;
-    border-width: 0.1em;
-    padding: 0em 1em;
-  }
-
-  div.mwubox img#mwu {
-  float: left;
-  margin-right: 1em;
-}
-
-  div.mwubox h4 {
-    text-align: center;
-  }
-
-
-  @media (prefers-color-scheme: dark) {
-    body {
-      background-color: #333;
-      color: #ddd;
-    }
-
-    img#webring {
-      filter: invert(100%);
-    }
-
-    div.mwubox {
-        border-color:#ddd;
-    }
-
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    strong,
-    b {
-      color: #eee;
-    }
-
-    a {
-      color: #8cc2dd;
-    }
-
-    code {
-      background-color: #777;
-    }
-
-    pre code {
-      color: #ddd;
-    }
-
-    blockquote {
-      color: #ccc;
-    }
-
-    textarea,
-    input {
-      background-color: #252525;
-      color: #ddd;
-    }
-
-    .helptext {
-      color: #aaa;
-    }
-  }
-
-</style>
+  <link rel="stylesheet" href="../style.css" />
 
 </head>
 
 <body>
-  <header><a href="../" class="title">
-
-  <h2><img id="mwu" src="https://www.itwont.work/images/mwu.svg" /> lipu pi soweli Niko</h2>
-</a>
-<nav><a href="../">Home</a>
+  <div id="screen" aria-hidden=true>
+    <header><div aria-hidden=true id="title-shadow">
+  <div id="titlebar">
+  <nav><a href="../">Nico Webbench 3.1</a>
 
 <a href="../books.html"></a>
 
@@ -272,10 +59,12 @@ Background Dots and Boxes is a pen-and-paper strategy game that is usually playe
 <a href="https://www.itwont.work/blog">Blog</a>
 
 </nav>
-
-<hr />
+  <img id="switcher" src="../ui-assets/switcher.png" aria-hidden=true />
+  </div>
+<div>
 </header>
-  <main>
+    <main>
+      <div id=content aria-hidden=true>
 
 <h1>I simulated 6,400 bad AI Games of dots and boxes, and discovered nothing</h1>
 <p>
@@ -287,32 +76,32 @@ Background Dots and Boxes is a pen-and-paper strategy game that is usually playe
 </p>
 
 <content>
-  <p>Occasionally, I get a silly idea and then decide to make it. Most recently, I decided to create a bunch of bad AI and have them play the children&rsquo;s game &ldquo;Dots and Boxes&rdquo; against each other. Here&rsquo;s how that went.</p>
+  <p>Occasionally, I get a silly idea and then decide to make it. Most recently, I decided to create a bunch of bad AI and have them play the children's game &quot;Dots and Boxes&quot; against each other. Here's how that went.</p>
 <h2 id="background">Background</h2>
-<p>Dots and Boxes is a pen-and-paper strategy game that is usually played by children, or between children and parents during times when more interesting games are unavailable, like at school or while waiting for food at a family restaurant. If you&rsquo;re not familiar with the rules, they&rsquo;re very simple:</p>
+<p>Dots and Boxes is a pen-and-paper strategy game that is usually played by children, or between children and parents during times when more interesting games are unavailable, like at school or while waiting for food at a family restaurant. If you're not familiar with the rules, they're very simple:</p>
 <ol>
 <li>
 <p>a grid of dots is drawn on a sheet of paper</p>
 </li>
 <li>
-<p>players take turns connecting dots with lines. whenever a player&rsquo;s line encloses a box, they claim that box. (often by writing their first name initial in it)</p>
+<p>players take turns connecting dots with lines. whenever a player's line encloses a box, they claim that box. (often by writing their first name initial in it)</p>
 </li>
 <li>
 <p>the player with the most boxes claimed at the end wins.</p>
 </li>
 </ol>
-<p>Despite the game&rsquo;s simplicity, it has some emergent complexity and has been analysed by mathematicians and combinatorial game theorists who have come up with many interesting observations about strategic play. In this project I decided to ignore all of them and try and play dots and boxes in the worst possible ways.</p>
-<p>This project was highly inspired by Dr. Tom Murphy VII&rsquo;s similar exploration of chess, which I have linked. You should watch it, because it&rsquo;s a lot better and more interesting than this. In fact, stop reading this right now and give Tom your time instead of me.</p>
+<p>Despite the game's simplicity, it has some emergent complexity and has been analysed by mathematicians and combinatorial game theorists who have come up with many interesting observations about strategic play. In this project I decided to ignore all of them and try and play dots and boxes in the worst possible ways.</p>
+<p>This project was highly inspired by Dr. Tom Murphy VII's similar exploration of chess, which I have linked. You should watch it, because it's a lot better and more interesting than this. In fact, stop reading this right now and give Tom your time instead of me.</p>
 <p><a href="https://www.youtube.com/watch?v=DpXy041BIlA">30 Weird Chess Algorithms: Elo World (by tom7)</a></p>
 <h2 id="methodology">Methodology</h2>
 <p>I implemented the game, all the player strategies and tools using the racket programming language, which I used for the first time. I quite like racket as a language for the creation of this kind of nonsense, because it has a large set of built in libraries for doing things that I find fun, like drawing graphics (which I also find very useful for debugging).</p>
-<p>Games are saved in .DBN (Dots and Boxes Notation), an s-expression based format that I&rsquo;m hoping will become a new standard for saving game records of dots and boxes similarly to what .PGN is for chess.</p>
-<p>The core game implementation is uninteresting and we&rsquo;ll get to the players in a moment, but the part I think I&rsquo;m happiest with is my little graphical viewer for .dbn files (gui.rkt in the source). racket/draw and racket/gui make building this kind of thing very easy and I love them, but it&rsquo;s still nice to look at something that looks like an actual program and think, I made this!</p>
+<p>Games are saved in .DBN (Dots and Boxes Notation), an s-expression based format that I'm hoping will become a new standard for saving game records of dots and boxes similarly to what .PGN is for chess.</p>
+<p>The core game implementation is uninteresting and we'll get to the players in a moment, but the part I think I'm happiest with is my little graphical viewer for .dbn files (gui.rkt in the source). racket/draw and racket/gui make building this kind of thing very easy and I love them, but it's still nice to look at something that looks like an actual program and think, I made this!</p>
 <p><img src="../images/dotsandboxes/viewer.png" alt="a screenshot of the viewer"></p>
-<p>Running the actual tournament used the code in arena.rkt, playing 100 games between every possible pair of the 8 players leading to 6,400 overall games. Data was then exported in csv and &ldquo;&ldquo;analysed&rdquo;&rdquo; using a spreadsheet.</p>
+<p>Running the actual tournament used the code in arena.rkt, playing 100 games between every possible pair of the 8 players leading to 6,400 overall games. Data was then exported in csv and &quot;&quot;analysed&quot;&quot; using a spreadsheet.</p>
 <p>All the source is available here if you want it:</p>
 <p><a href="https://tildegit.org/nihilazo/dotsandboxes">Tildegit page for dots and boxes</a></p>
-<h3 id="lets-meet-the-players">Let&rsquo;s meet the players!</h3>
+<h3 id="lets-meet-the-players">Let's meet the players!</h3>
 <p>For this project I built 8 bad AI strategy players:</p>
 <ul>
 <li>Random: plays purely random moves</li>
@@ -332,27 +121,24 @@ Background Dots and Boxes is a pen-and-paper strategy game that is usually playe
 <h2 id="results">Results</h2>
 <p><img src="../images/dotsandboxes/results.png" alt="the results table"></p>
 <p>After each player playing 100 games against each other player, I exported the results out of my program as a csv and plotted them as a graph and pivot table, seen above.</p>
-<p>The best player by far was Nico-bot, taking 1490 wins compared to the closet rival, greedy, taking 1310. Horizontal and Vertical both perform worse than random, and I have no idea why. The worst player is generous, which makes sense, as Generous tries as much as possible to lose. A surprise is how well last- and first- move played. I think because they go methodically through the board they&rsquo;re likely to accidentally form a lot of boxes. That&rsquo;s basically it for my analysis of the results.</p>
+<p>The best player by far was Nico-bot, taking 1490 wins compared to the closet rival, greedy, taking 1310. Horizontal and Vertical both perform worse than random, and I have no idea why. The worst player is generous, which makes sense, as Generous tries as much as possible to lose. A surprise is how well last- and first- move played. I think because they go methodically through the board they're likely to accidentally form a lot of boxes. That's basically it for my analysis of the results.</p>
 <p>Sidenote: Pivot tables are awesome. I could just import a whole bunch of data into libreoffice and get a nice table. 10/10 would recommend.</p>
 <p>All the results and every game log (in .dbn format) can be downloaded here:</p>
 <p><a href="../misc/dnbresults.zip">Dots and Boxes Results (zip)</a></p>
 <h2 id="conclusion">Conclusion</h2>
-<p>In conclusion, playing dots and boxes the way a child plays it is better than playing it like a computer that has no idea how to play dots and boxes, which was already pretty obvious, when you think about it. To learn this, I learned a lot of other stuff: the racket programming language, building GUIs that don&rsquo;t totally suck, canvas drawing, inventing file formats, creating gifs with ffmpeg, and the awesomeness of pivot tables. If somebody wanted to actually learn about dots and boxes, it may be helpful to compare actually good strategies instead of bad ones.</p>
-<p>I learned absolutely nothing about the game of dots and boxes. But that wasn&rsquo;t really the point, so I consider this a great success.</p>
+<p>In conclusion, playing dots and boxes the way a child plays it is better than playing it like a computer that has no idea how to play dots and boxes, which was already pretty obvious, when you think about it. To learn this, I learned a lot of other stuff: the racket programming language, building GUIs that don't totally suck, canvas drawing, inventing file formats, creating gifs with ffmpeg, and the awesomeness of pivot tables. If somebody wanted to actually learn about dots and boxes, it may be helpful to compare actually good strategies instead of bad ones.</p>
+<p>I learned absolutely nothing about the game of dots and boxes. But that wasn't really the point, so I consider this a great success.</p>
 
 </content>
 <p>
   
 </p>
 
-  </main>
-  <footer>
-<a href="https://webring.xxiivv.com/#164" target="_blank" rel="noopener">
-  <img id="webring" src="https://webring.xxiivv.com/icon.black.svg" alt="XXIIVV webring"/>
-</a>
-</footer>
+      </div>
+    </main>
+    <footer></footer>
 
-    
+  </div>
 </body>
 
 </html>

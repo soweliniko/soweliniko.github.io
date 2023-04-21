@@ -20,7 +20,6 @@
 
 
 
-
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Minecraft 1.14 was a failure, but here&#39;s how to (maybe) improve it"/>
 <meta name="twitter:description" content="Minecraft 1.14: Village and Pillage was meant to make villages actually interesting to players and increase their importance and make players actually care about them. But as we reach 1.19 and beyond, it’s clear that this didn’t work, and most players still don’t care about villages beyond being a place to pillage earlygame items, sleep the first few nights, and maybe trap a few villagers to use in farms. So why did it fail?"/>
@@ -34,227 +33,15 @@
 <meta itemprop="keywords" content="" />
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
-  <style>
-  body {
-    font-family: Verdana, sans-serif;
-    margin: auto;
-    padding: 20px;
-    max-width: 720px;
-    text-align: left;
-    background-color: #fff;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    line-height: 1.5;
-    color: #444;
-  }
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  strong,
-  b {
-    color: #222;
-  }
-
-  a {
-    color: #3273dc;
-     
-  }
-
-  .title {
-    text-decoration: none;
-    border: 0;
-  }
-
-  .title span {
-    font-weight: 400;
-  }
-
-  nav a {
-    margin-right: 10px;
-  }
-
-  textarea {
-    width: 100%;
-    font-size: 16px;
-  }
-
-  input {
-    font-size: 16px;
-  }
-
-  content {
-    line-height: 1.6;
-  }
-
-  table {
-    width: 100%;
-  }
-
-  img {
-    max-width: 100%;
-  }
-
-  code {
-    padding: 2px 5px;
-    background-color: #f2f2f2;
-  }
-
-  pre code {
-    color: #222;
-    display: block;
-    padding: 20px;
-    white-space: pre-wrap;
-    font-size: 14px;
-    overflow-x: auto;
-  }
-
-  div.highlight pre {
-    background-color: initial;
-    color: initial;
-  }
-
-  div.highlight code {
-    background-color: unset;
-    color: unset;
-  }
-
-  blockquote {
-    border-left: 1px solid #999;
-    color: #222;
-    padding-left: 20px;
-    font-style: italic;
-  }
-
-  footer {
-    padding: 25px;
- 
-  }
-
-  .helptext {
-    color: #777;
-    font-size: small;
-  }
-
-  .errorlist {
-    color: #eba613;
-    font-size: small;
-  }
-
-   
-  ul.blog-posts {
-    list-style-type: none;
-    padding: unset;
-  }
-
-  ul.blog-posts li {
-    display: flex;
-  }
-
-  ul.blog-posts li span {
-    flex: 0 0 130px;
-  }
-
-  ul.blog-posts li a:visited {
-    color: #8b6fcb;
-  }
-
-  img#mwu {
-    max-width: 10%;
-  }
-
-  img#small-mwu {
-    max-width: 5%;
-  }
-  img#webring {
-    max-width: 10%;
-    }
-  div.mwu p {
-    display:inline;
-  }
-
-  div.mwubox {
-    border-style:solid;
-    border-color:#444;
-    border-width: 0.1em;
-    padding: 0em 1em;
-  }
-
-  div.mwubox img#mwu {
-  float: left;
-  margin-right: 1em;
-}
-
-  div.mwubox h4 {
-    text-align: center;
-  }
-
-
-  @media (prefers-color-scheme: dark) {
-    body {
-      background-color: #333;
-      color: #ddd;
-    }
-
-    img#webring {
-      filter: invert(100%);
-    }
-
-    div.mwubox {
-        border-color:#ddd;
-    }
-
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    strong,
-    b {
-      color: #eee;
-    }
-
-    a {
-      color: #8cc2dd;
-    }
-
-    code {
-      background-color: #777;
-    }
-
-    pre code {
-      color: #ddd;
-    }
-
-    blockquote {
-      color: #ccc;
-    }
-
-    textarea,
-    input {
-      background-color: #252525;
-      color: #ddd;
-    }
-
-    .helptext {
-      color: #aaa;
-    }
-  }
-
-</style>
+  <link rel="stylesheet" href="../style.css" />
 
 </head>
 
 <body>
-  <header><a href="../" class="title">
-
-  <h2><img id="mwu" src="https://www.itwont.work/images/mwu.svg" /> lipu pi soweli Niko</h2>
-</a>
-<nav><a href="../">Home</a>
+  <div id="screen" aria-hidden=true>
+    <header><div aria-hidden=true id="title-shadow">
+  <div id="titlebar">
+  <nav><a href="../">Nico Webbench 3.1</a>
 
 <a href="../books.html"></a>
 
@@ -268,10 +55,12 @@
 <a href="https://www.itwont.work/blog">Blog</a>
 
 </nav>
-
-<hr />
+  <img id="switcher" src="../ui-assets/switcher.png" aria-hidden=true />
+  </div>
+<div>
 </header>
-  <main>
+    <main>
+      <div id=content aria-hidden=true>
 
 <h1>Minecraft 1.14 was a failure, but here&#39;s how to (maybe) improve it</h1>
 <p>
@@ -293,34 +82,31 @@
 <li>as a player trades with a villager, that villager gains trading levels, giving them better items that are available to the player as the player trades with them more</li>
 <li>if a player defends a village from a raid, they get a bonus effect that makes all villager trades cheaper</li>
 </ul>
-<p>It&rsquo;s easy to see, from a traditional game design perspective, how this should solve minecraft&rsquo;s village problems. The player now has an investment in continuing a relationship with a village, gets more out of it the more they put in, and has a legitimate reason to defend villages from attacks.</p>
-<p>After 1.14, a typical player only interacts with villages by ransacking and looting them, maybe taking over a house, stealing beds,  and (if they are particularly technically-minded) capturing a few villagers to use in an iron farm and trading hall later on in the game. If you&rsquo;re thinking that this sounds almost exactly the same, you&rsquo;re right! But it gets even worse.</p>
+<p>It's easy to see, from a traditional game design perspective, how this should solve minecraft's village problems. The player now has an investment in continuing a relationship with a village, gets more out of it the more they put in, and has a legitimate reason to defend villages from attacks.</p>
+<p>After 1.14, a typical player only interacts with villages by ransacking and looting them, maybe taking over a house, stealing beds,  and (if they are particularly technically-minded) capturing a few villagers to use in an iron farm and trading hall later on in the game. If you're thinking that this sounds almost exactly the same, you're right! But it gets even worse.</p>
 <p>A big part of 1.14 was making villager trades actually worth it to the player as a source of items. This bought about a wave of players trying to figure out how to get as many items from a village as efficiently as possible. The solution they found was the villager trading hall - essentially, packing as many villagers into as small a space as possible and getting them to trade the items you want from them. But how do you get villagers to trade what you want?</p>
-<p>Each villager&rsquo;s profession is assigned based on their nearest &ldquo;job site block&rdquo;. Before trades are locked, they change based on the job site block the villager has found, and destroying and replacing the job site block has the effect of re-rolling a villager&rsquo;s trades. As for getting villagers together in a small space, this is also possible - villagers are not intended in the game to be moved, but can be moved by minecart or boat.</p>
+<p>Each villager's profession is assigned based on their nearest &quot;job site block&quot;. Before trades are locked, they change based on the job site block the villager has found, and destroying and replacing the job site block has the effect of re-rolling a villager's trades. As for getting villagers together in a small space, this is also possible - villagers are not intended in the game to be moved, but can be moved by minecart or boat.</p>
 <p>So setting up a trading hall consists of building a long railway line or waterway out of a village, painfully gathering up all the residents by trying to force them into that minecart or boat pathway (which is very difficult and frustrating, as the villagers will walk wheverer they want to and not where you want them to, taking them over to a different location, putting them in small holding cells, and then repeatedly placing and breaking their job side block and checking trades until they are selling the item you want, trade once to lock the trade, then rinse and repeat for all the items you want from villager trades.</p>
-<p>Villager trades are the only reliable way to get enchanted books, which are practically required for the later game unless you want to throw away lots of items and XP on randomised buffs, so you need at least a villager for each major enchantment you want, plus some to act as a source of emeralds, some for each different rare block you might want, etc. This process takes hours of grind-y, unfun gameplay, a lot of which is spent trying to push villagers into minecarts and repeatedly replacing the same block. Some discoveries, like the fact that you can force breed villagers, have made this a little easier, but it&rsquo;s still overall tedious and boring (even if you ignore the fact that this is essentially mechanically incentivised slavery, which I might write a whole other post about).</p>
-<p>Whenever I get to the point in minecraft where I need to start setting up a trading hall to get enchantments for fighting the bosses or blocks for a big building project, the amount of <em>work</em> that would require (and it is work, it is not play. It&rsquo;s not fun and it takes so much time) is so monumental that I practically abandon the game.</p>
-<p>So, how could this be fixed? Here&rsquo;s a few ideas:</p>
+<p>Villager trades are the only reliable way to get enchanted books, which are practically required for the later game unless you want to throw away lots of items and XP on randomised buffs, so you need at least a villager for each major enchantment you want, plus some to act as a source of emeralds, some for each different rare block you might want, etc. This process takes hours of grind-y, unfun gameplay, a lot of which is spent trying to push villagers into minecarts and repeatedly replacing the same block. Some discoveries, like the fact that you can force breed villagers, have made this a little easier, but it's still overall tedious and boring (even if you ignore the fact that this is essentially mechanically incentivised slavery, which I might write a whole other post about).</p>
+<p>Whenever I get to the point in minecraft where I need to start setting up a trading hall to get enchantments for fighting the bosses or blocks for a big building project, the amount of <em>work</em> that would require (and it is work, it is not play. It's not fun and it takes so much time) is so monumental that I practically abandon the game.</p>
+<p>So, how could this be fixed? Here's a few ideas:</p>
 <ul>
-<li>make villagers get &ldquo;homesick&rdquo; and stop offering trades when taken outside the village</li>
+<li>make villagers get &quot;homesick&quot; and stop offering trades when taken outside the village</li>
 <li>fix trade cycling so villager trades are only of what that villager can offer</li>
 <li>allow players to work alongside the village to help it - hero of the village is a good start, but imagine the village growing and expanding, villagers building new houses and actually allowing the player to feel like part of the community</li>
 </ul>
-<p>Of course, these changes would have to be balanced in order to be both fun and also provide a mechanical reason for the player to engage with them, but also not so powerful that players are essentially forced into unfun grind-y gameplay to try and maximise them, as with 1.14&rsquo;s village mechanics.</p>
+<p>Of course, these changes would have to be balanced in order to be both fun and also provide a mechanical reason for the player to engage with them, but also not so powerful that players are essentially forced into unfun grind-y gameplay to try and maximise them, as with 1.14's village mechanics.</p>
 
 </content>
 <p>
   
 </p>
 
-  </main>
-  <footer>
-<a href="https://webring.xxiivv.com/#164" target="_blank" rel="noopener">
-  <img id="webring" src="https://webring.xxiivv.com/icon.black.svg" alt="XXIIVV webring"/>
-</a>
-</footer>
+      </div>
+    </main>
+    <footer></footer>
 
-    
+  </div>
 </body>
 
 </html>
