@@ -53,6 +53,11 @@ nav {
 
 }
 
+#translations {
+  flex-grow: 1;
+  padding: 0;
+}
+
   body {
     font-family: topaz, sans-serif;
     margin: auto;
@@ -91,7 +96,7 @@ nav {
     font-weight: 400;
   }
 
-  nav a {
+  #titlebar a {
     margin-right: 10px;
     color: #000000;
     text-decoration: none;
