@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     <copyright>Copyright © 2020 nihilazo</copyright>
-    <lastBuildDate>Mon, 06 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.itwont.work/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.itwont.work/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Another site refresh!</title>
+      <link>https://www.itwont.work/blog/refreshagain.html</link>
+      <pubDate>Fri, 21 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.itwont.work/blog/refreshagain.html</guid>
+      <description>so yeah I got bored of my site again. This new design is based on Amiga Workbench 3.1, the best user interface to ever exist1. Hope you enjoy! Any issues let me know through any of the ways you may know how to contact.
+Nico
+I don&#39;t actually believe it&#39;s the best UI ever but I do like amigas so styled my thing around one.&amp;#160;&amp;#x21a9;&amp;#xfe0e;</description>
+    </item>
+    
     <item>
       <title>the Steamed Ham is actually AMAZING</title>
       <link>https://www.itwont.work/blog/steam-deck-redemption.html</link>
@@ -111,17 +122,6 @@ Shell scripts are the worst kind of problem, where everybody seems to have just 
       
       <guid>https://www.itwont.work/blog/phone.html</guid>
       <description>So I recently moved to using a smartphone after being a basic-phone only person for multiple years, and my experience has been actually positive. To the point where I would write a provocatively titled blog post about it for the clicks from annoyed FOSS and permacomputing people at me liking an objectively trash device. And yes, smartphones are objectively trash. They&#39;re hard to repair, built for minimum life and maximum profit, and generally suck (as all devices invented by modern capitalism do).</description>
-    </item>
-    
-    <item>
-      <title>Another site refresh!</title>
-      <link>https://www.itwont.work/blog/refreshagain.html</link>
-      <pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.itwont.work/blog/refreshagain.html</guid>
-      <description>so yeah I got bored of my site again. This new design is based on Amiga Workbench 3.1, the best user interface to ever exist1. Hope you enjoy! Any issues let me know through any of the ways you may know how to contact.
-Nico
-I don&#39;t actually believe it&#39;s the best UI ever but I do like amigas so styled my thing around one.&amp;#160;&amp;#x21a9;&amp;#xfe0e;</description>
     </item>
     
     <item>
