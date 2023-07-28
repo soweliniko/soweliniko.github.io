@@ -1,12 +1,14 @@
 @font-face {
     font-family:topaz;
     src: url(fonts/TopazPlus.eot);
+    font-display: "swap";
 }
 
 /* FF3.5+/Safari/Opera10 */
 @font-face {
     font-family:topaz;
     src: url(fonts/TopazPlus.ttf) format("truetype");
+    font-display: "swap";
 }
 
 /* main CSS */
