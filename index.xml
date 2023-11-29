@@ -7,158 +7,128 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2020 nihilazo</copyright>
-    <lastBuildDate>Thu, 07 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.itwont.work/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.itwont.work/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Another site refresh!</title>
       <link>https://www.itwont.work/blog/refreshagain.html</link>
       <pubDate>Fri, 21 Apr 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://www.itwont.work/blog/refreshagain.html</guid>
       <description>so yeah I got bored of my site again. This new design is based on Amiga Workbench 3.1, the best user interface to ever exist1. Hope you enjoy! Any issues let me know through any of the ways you may know how to contact.
 Nico
 I don&#39;t actually believe it&#39;s the best UI ever but I do like amigas so styled my thing around one.&amp;#160;&amp;#x21a9;&amp;#xfe0e;</description>
     </item>
-    
     <item>
       <title>THE FACTORY MUST GROW - a critique of factorio</title>
       <link>https://www.itwont.work/blog/factorio.html</link>
       <pubDate>Fri, 21 Apr 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://www.itwont.work/blog/factorio.html</guid>
       <description>Factorio is a game where you land on an alien planet with only basic resources, and your task is to build a rocket to escape. To do so, you build, from the ground up, a vast factory drilling for resources, producing power, assembling components, processing chemicals, and eventually constructing rocket components and launching things into space. It&#39;s certainly not intended to be a game with much to say about the world, but it unintentionally takes some very strong positions through how it implements mechanics like pollution and resource extraction.</description>
     </item>
-    
     <item>
       <title>AmigaConverterQT</title>
       <link>https://www.itwont.work/amigaconverterqt.html</link>
       <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://www.itwont.work/amigaconverterqt.html</guid>
       <description>AmigaConverterQT is a sample converter thingamijig. There will be a proper page soon I promise
 Download it</description>
     </item>
-    
     <item>
       <title>the Steamed Ham is actually AMAZING</title>
       <link>https://www.itwont.work/blog/steam-deck-redemption.html</link>
       <pubDate>Mon, 06 Feb 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://www.itwont.work/blog/steam-deck-redemption.html</guid>
       <description>I was wrong about the steam deck.
 My initial experience with the steam deck and post about it were very negative. And it&#39;s true that I had a bad initial experience getting shipped a faulty unit. But my second unit wasn&#39;t faulty! It turns out the gyro is just configured in a weird way by default for source engine games.
 I&#39;ve had my deck for a while now and honestly I love it.</description>
     </item>
-    
     <item>
       <title>Gabe Newell&#39;s Steamed Ham (my Steam Deck experience)</title>
       <link>https://www.itwont.work/blog/gabensteamedham.html</link>
       <pubDate>Tue, 24 Jan 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://www.itwont.work/blog/gabensteamedham.html</guid>
       <description>Mwu: Hey! Since writing this nico got its Steam Deck working, and now feels much more positive about it !
 I really wanted to love the Steam Deck (or as I am going to probably accidentally call it many times in this post, the Steamed Ham, as I took to calling it through this experience). I really did. It was a relatively elegant, self-contained solution to wanting something to play PC games on that my thinkpad couldn&#39;t handle.</description>
     </item>
-    
     <item>
       <title>Site Refresh, and Introducing Mwu!</title>
       <link>https://www.itwont.work/blog/refreshmwu.html</link>
       <pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://www.itwont.work/blog/refreshmwu.html</guid>
       <description>So I got a bit tired of my site&#39;s style and layout and decided to refresh it. After considering writing my own SSG and the other things that nerds do in this situation, evaluating different alternative hosting/platform options (including giving up on a blog entirely, because this whole web thing is hard) I decided to just change up the theme and some of the layout, as it was easier than migrating to any other platform.</description>
     </item>
-    
     <item>
       <title></title>
       <link>https://www.itwont.work/books.html</link>
       <pubDate>Wed, 04 Jan 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://www.itwont.work/books.html</guid>
       <description>Reading A page for the books I&#39;m reading/want to read. Here to replace a bookwyrm profile with something simpler.
 Currently Reading Record of a Spaceborn Few, Becky Chambers Want to Read The Dawn of Everything, David Graeber and David Wengrow Post-Scarcity Anarchism, Murray Bookchin This is Vegan Propaganda, Ed Winters Capitalist Realism, Mark Fisher The Handmaid&#39;s Tale, Margaret Atwood Mycelium Running, Paul Stamets Galileo&#39;s Error, Philip Goff Dune, Frank Herbert Embassytown, China Miéville Thinking in Systems, Donella Meadows The Doctor Who Fooled the World, Brian Deer The Bible The VICE Terraform Sci-fi Anthology that I can&#39;t remember the name of Read (2022) Abaddon&#39;s gate, James S.</description>
     </item>
-    
     <item>
       <title>Is Beat Saber a Good Dance Game?</title>
       <link>https://www.itwont.work/blog/beatsaber.html</link>
       <pubDate>Fri, 23 Dec 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://www.itwont.work/blog/beatsaber.html</guid>
       <description>I&#39;m a bit of a dance game nerd, and when I say a bit I mean a lot. I&#39;m pretty sure I&#39;ve played every major dance game out there, I&#39;ve got to levels of DDR/ITG where I draw stares at the arcade (even though I still think I&#39;m honestly pretty bad at them). Recently, due to my dad making a midlife crisis tech purchase1 and being kind enough to let me use it, I got to actually get some real play time with Beat Saber (after trying it every now and then at friend&#39;s places and arcades).</description>
     </item>
-    
     <item>
       <title>On quality, or why I am now just posting things</title>
       <link>https://www.itwont.work/blog/quality.html</link>
       <pubDate>Tue, 06 Dec 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://www.itwont.work/blog/quality.html</guid>
       <description>I&#39;m tired of a problem I always have when writing a blog post, which is that I feel like every post I write has to be, somehow, &amp;quot;quality&amp;quot;. That I have to provide original and useful thoughts. That I have to make sure every single fact is correct, that everything is properly sourced and referenced, that there isn&#39;t a single spelling or grammatical error. That I am making a real, important contribution to a real, important discussion, or I am creating things that are properly worthy of people&#39;s time.</description>
     </item>
-    
     <item>
       <title>Easy Mushroom Soup</title>
       <link>https://www.itwont.work/recipes/mushroomsoup.html</link>
       <pubDate>Fri, 30 Sep 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://www.itwont.work/recipes/mushroomsoup.html</guid>
       <description>Serves 4 (as a starter soup), 2 (as a main)
 Ingredients 125g onion, chopped 225g mushrooms, sliced oil for cooking 25g plain flour 300ml nondairy milk of your choice 450ml vegetable stock mixed herbs to taste salt and pepper to taste Method Cook the onion and mushrooms in a pan until soft. stir in the flour to form a paste, gradually add the milk and stock. stir in the herbs, salt, and better, and cook for 10-ish minutes blend and cook for a further 5 minutes Notes this is a meh mushroom soup.</description>
     </item>
-    
     <item>
       <title>Creamy Spinach and Mushroom Pasta</title>
       <link>https://www.itwont.work/recipes/mushroompasta.html</link>
       <pubDate>Mon, 05 Sep 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://www.itwont.work/recipes/mushroompasta.html</guid>
       <description>Ingredients 175g pasta (I used penne) 50g unroasted, unsalted cashews 10g dried porcini mushrooms 1 veg stock cube 1 tbsp of a neutral oil 120g chestnut mushrooms, halved if large, thinly sliced 2 large garlic cloves, finely grated 200g baby spinach Method Cook the penne following pack instructions and put the kettle on to boil. Meanwhile, put the cashews and dried mushrooms in a medium heatproof bowl along with the bouillon powder, and pour over 200ml boiling water from the kettle.</description>
     </item>
-    
     <item>
       <title>how I made Sheepspin (the NOVA 2022 wild compo winner)</title>
       <link>https://www.itwont.work/blog/sheepspin.html</link>
       <pubDate>Thu, 18 Aug 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://www.itwont.work/blog/sheepspin.html</guid>
       <description>This last weekend was the NOVA 2022 demoparty, which was really fun and a great time. I was involved in 5 productions at the party (both solo and group prods). Most were shitposts but my TIC-80 intro, Sheepspin, turned out to win the wild compo. I really didn&#39;t expect that but I got a few questions about how it worked and I figured I&#39;d do a little writeup of it.</description>
     </item>
-    
     <item>
       <title>Minecraft 1.14 was a failure, but here&#39;s how to (maybe) improve it</title>
       <link>https://www.itwont.work/blog/minecraftvillage.html</link>
       <pubDate>Mon, 25 Jul 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://www.itwont.work/blog/minecraftvillage.html</guid>
       <description>Minecraft 1.14: Village and Pillage was meant to make villages actually interesting to players and increase their importance and make players actually care about them. But as we reach 1.19 and beyond, it’s clear that this didn’t work, and most players still don’t care about villages beyond being a place to pillage earlygame items, sleep the first few nights, and maybe trap a few villagers to use in farms. So why did it fail?</description>
     </item>
-    
     <item>
       <title>About</title>
       <link>https://www.itwont.work/about.html</link>
       <pubDate>Thu, 07 Jul 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://www.itwont.work/about.html</guid>
       <description>Hi, I&#39;m Nico (it/its), and I&#39;m an internet catperson. This is a place where I write about whatever I&#39;m thinking about. I speak english and toki pona. Most of the content here will be in English but I&#39;m hoping to write some toki pona content soon. I&#39;m genderfluid and non-binary.
 About this site this is my personal site. It&#39;s generated using hugo. It used to be on gemini, but isn&#39;t any more.</description>
     </item>
-    
     <item>
       <title>Black Bean Burgers</title>
       <link>https://www.itwont.work/recipes/beanburgers.html</link>
       <pubDate>Thu, 07 Jul 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://www.itwont.work/recipes/beanburgers.html</guid>
       <description>Makes 6 Burgers
 Ingredients 1 can black beans, drained 60g Vital Wheat Gluten 20g Breadcrumbs 1tsp Chili Powder 1/2tsp Ground Cumin 60ml water 1tsp ketchup 2 cloves garlic (or equivalent garlic powder) 1/2 small onion Method Mash the beans with a fork in a mixing bowl.
 Add the vital wheat gluten, breadcrumbs, chili powder, cumin, water, and ketchup. press and add the garlic, mince or grate the onion and add.</description>
     </item>
-    
     <item>
       <title>Cheat Chili</title>
       <link>https://www.itwont.work/recipes/chili.html</link>
       <pubDate>Thu, 07 Jul 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://www.itwont.work/recipes/chili.html</guid>
       <description>Serves 3-4
 Ingredients 1 Onion, chopped 500g Vegan Mince ~200ml Vegetable Stock 1 1/2 tsp Chili Powder 1 can Chopped Tomatoes A squirt of tomato puree 1 can Red Beans in Chili Sauce Oil (for frying) Method Fry onion in a saucepan until soft.
@@ -167,12 +137,10 @@ Add chopped tomatoes, tomato puree, and chili powder. Simmer for 10 minutes.
 Add red beans in chili sauce.
 Simmer for 15 minutes.</description>
     </item>
-    
     <item>
       <title>Cheat Korma</title>
       <link>https://www.itwont.work/recipes/korma.html</link>
       <pubDate>Thu, 07 Jul 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://www.itwont.work/recipes/korma.html</guid>
       <description>Serves 3-4
 Ingredients 1 Onion, chopped 2tsp Ground Ginger 1/2 Jar Korma Spice Paste 50ml Water 500g Mock Meat Pieces (like vegan Quorn or similar) 1 can Chickpeas, Drained 1 can Coconut Milk 1 can Lentils, Drained Oil (for frying) Method Fry onion in a saucepan until soft.
@@ -180,41 +148,33 @@ Add ground ginger and spice paste. Cook for 2 minutes.
 Add 50ml water and cook until evaporated.
 Add mock meat pieces and cook until browned.</description>
     </item>
-    
     <item>
       <title>Chickpea Masala</title>
       <link>https://www.itwont.work/recipes/chickpeamasala.html</link>
       <pubDate>Thu, 07 Jul 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://www.itwont.work/recipes/chickpeamasala.html</guid>
       <description>Serves 4-6
 Ingredients Oil, for frying 1 onion, diced 1 yellow pepper, deseeded and finely chopped 2 garlic cloves, finely chopped 2 tsp garam masala 1 tsp ground cumin 1/2 tsp ground tumeric 2 carrots, peeled and finely chopped 2 400g cans of chickpeas, drained 2 400g cans of chopped tomatoes 1 400g can of coconut milk 1/4tsp cayenne pepper salt, to taste Method Heat enough oil to coat the bottom of a large saucepan over a medium-high heat.</description>
     </item>
-    
     <item>
       <title>Chickpea Salad</title>
       <link>https://www.itwont.work/recipes/chickpea-salad.html</link>
       <pubDate>Thu, 07 Jul 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://www.itwont.work/recipes/chickpea-salad.html</guid>
       <description>Ingredients 250 g chickpeas, cooked 60g veganaise 5g bull kelp powder 2 pickled cucumbers 1.25 g cayenne pepper powder Method Cook 125 g (3/4 cup) of dried chickpeas (see instructions), or use 1 can (15oz). Mash chickpeas down with a fork.
 Mix the mashed chickpeas with 60 g (3-4 tbsp) of venagaise, 15 g (1 tsp) bull kelp powder, 2 chopped pickles and 1.25 g (1/4 tsp) of cayenne pepper powder.</description>
     </item>
-    
     <item>
       <title>Chocolate Brownies</title>
       <link>https://www.itwont.work/recipes/brownies.html</link>
       <pubDate>Thu, 07 Jul 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://www.itwont.work/recipes/brownies.html</guid>
       <description>Ingredients 140 grams (1 cup) plain flour 20 grams (1/4 cup) cocoa powder 200 grams (1 cup) caster sugar 80 ml (1/3 cup) vegetable oil 1 teaspoon vanilla extract 200 grams (1/2 cup) dairy free (vegan) dark chocolate, melted 240 ml (1 cup) Oat Milk 75 grams (1/2 cup) dairy free (vegan) chocolate chips, optional Method Preheat oven to 180 C (350 F) standard / 160 C (320 F) fan-forced. Line an 8-inch square baking tin with baking or parchment paper.</description>
     </item>
-    
     <item>
       <title>Flapjack</title>
       <link>https://www.itwont.work/recipes/flapjack.html</link>
       <pubDate>Thu, 07 Jul 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://www.itwont.work/recipes/flapjack.html</guid>
       <description>Ingredients 210g Margerine/Vegan Butter 210g Light Brown Sugar 160g Golden Syrup 350g Oats 100g sultanas (or other dried fruits) Method Preheat an oven to 160C
 Line a tray bake tin with greaseproof paper
@@ -223,50 +183,40 @@ Add the oats and fruit and mix well
 Pour into the tray bake tin and press down to make even
 Bake for 20 minutes</description>
     </item>
-    
     <item>
       <title>Kvass</title>
       <link>https://www.itwont.work/recipes/kvass.html</link>
       <pubDate>Thu, 07 Jul 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://www.itwont.work/recipes/kvass.html</guid>
       <description>Ingredients 450g rye bread, sliced (stale or fresh) 3.5l water 1 tablespoon rye starter (optional) 1 1/2 teaspoons champaigne years or 1/2 teaspoon active dry yeast 85g golden syrup (originally honey, but I&#39;m veganifying this) 95g plus 1/2 teaspoon sugar 1 raisin About 8 small sprigs of fresh mint (I left these out) Method Preheat the oven to 200C. Place the bread onto the oven rack and let bake for until well toasted and completely firm.</description>
     </item>
-    
     <item>
       <title>Lemon Sorbet</title>
       <link>https://www.itwont.work/recipes/lemon_sorbet.html</link>
       <pubDate>Thu, 07 Jul 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://www.itwont.work/recipes/lemon_sorbet.html</guid>
       <description>Ingredients 225g/8oz caster sugar 6 unwaxed lemons Method Tip the caster sugar into a saucepan and add 250ml water. Bring slowly to the boil, stirring to dissolve the sugar. Boil for 2 minutes and then remove from the heat.
 Finely grate the zest from 3 of the lemons and add to the sugar syrup. Cut all of the lemons in half and squeeze the juice - you should end up with about 225ml/8fl oz of juice.</description>
     </item>
-    
     <item>
       <title>Red Lentil Daal</title>
       <link>https://www.itwont.work/recipes/lentildaal.html</link>
       <pubDate>Thu, 07 Jul 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://www.itwont.work/recipes/lentildaal.html</guid>
       <description>Ingredients Olive oil for frying 2 onions, finely sliced 3 garlic cloves, finely chopped 2.5cm piece of ginger, grated (or use ground ginger) 2tsp ground cumin 1tsp ground tumeric 1tsp ground coriander 1/2tsp garam masala 1/4tsp cayenne pepper 1 400g can of chopped tomatoes 270g dry red lentils 2 carrots, diced salt and pepper to taste Method Heat enough oil to cover the bottom of a large pan over medium-high heat.</description>
     </item>
-    
     <item>
       <title>Red Lentil Stew</title>
       <link>https://www.itwont.work/recipes/redlentilstew.html</link>
       <pubDate>Thu, 07 Jul 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://www.itwont.work/recipes/redlentilstew.html</guid>
       <description>Serves 2
 Ingredients 1tbsp olive oil (for cooking) 1 medium onion 1/4 tsp black pepper 1/2 tsp cumin seeds 1/4 tsp ground tumeric 1 carrot 2 medium potatoes 1/4 head green cabbage (or other veg) a pinch of salt 100g red lentils 350ml vegetable stock Method Heat a pot at medium heat, then coat bottom with olive oil. Add onion, sautée for 5 minutes. Add black pepper, cumin seeds and turmeric.</description>
     </item>
-    
     <item>
       <title>Roasted Cashews</title>
       <link>https://www.itwont.work/recipes/roasted_cashews.html</link>
       <pubDate>Thu, 07 Jul 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://www.itwont.work/recipes/roasted_cashews.html</guid>
       <description>Ingredients 1 lb (0.45kg) Whole Cashews 2/3 tsp (10/15 ml) oil Salt and pepper (to taste) Method Preheat oven to 180 degrees. Add cashews to large baking tray (lined or not).
 Spread the cashews in an even layer in the baking tray.
@@ -274,99 +224,79 @@ Drizzle 1/2 tsp of oil over the cashews and toss to evenly coat.
 Roast on the middle rack of the oven for 5 minutes.
 Remove from the oven and stir.</description>
     </item>
-    
     <item>
       <title>some writing thoughts, and probably leaving gemini</title>
       <link>https://www.itwont.work/blog/onwriting.html</link>
       <pubDate>Thu, 07 Jul 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://www.itwont.work/blog/onwriting.html</guid>
       <description>Starting a new post is hard. This seems to be a universally accepted fact among people who post stuff (except, maybe, the people who are actually good at it). When you have nothing but ideas and a blank page, and you want to somehow communicate those ideas, in a form that is readable and understandable.
 A lot of writers have special tricks for starting posts - starting with research notes or a system like zettelkasten can be a good start, but is difficult for posts that are based on personal thoughts (like most things I personally write).</description>
     </item>
-    
     <item>
       <title>Sweet&amp;Sour Chickpea Rice Bowl</title>
       <link>https://www.itwont.work/recipes/sweet_sour_chickpea_rice_bowl.html</link>
       <pubDate>Thu, 07 Jul 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://www.itwont.work/recipes/sweet_sour_chickpea_rice_bowl.html</guid>
       <description>Serves: 1
 Ingredients 1-2 servings of cooked rice (google says one serving is around 1/3 cup = 70g uncooked rice per person) 1 red onion 1 bell pepper or 2-3 tiny ones 1 small piece of fresh ginger (around 2.5cm) or ground ginger oil for the pan 1 tbsp cornstarch 2 tbsp water 1 tbsp soy sauce 1 tbsp ketchup hot sauce to taste (I added 1/2 tsp) 2 tsp rice syrup (mirin) or alternative sweet syrup 2 tbsp white wine vinegar 1 tbsp tomato puree 1/2 can chickpeas (120g; 4,23oz) extra water to adjust the consistency sesame seeds; spring onion for serving Method Cook the rice according to the packet.</description>
     </item>
-    
     <item>
       <title>Vanilla ice cream base</title>
       <link>https://www.itwont.work/recipes/icecream.html</link>
       <pubDate>Thu, 07 Jul 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://www.itwont.work/recipes/icecream.html</guid>
       <description>Ingredients 235ml nondairy milk 150g silken tofu 1 tbsp vanilla extract 100g cream from the top of a can of coconut milk 150g sugar Method combine all ingredients in the bowl of a blender or food processor and blend until smooth
 transfer to ice cream maker and follow manufacturer&#39;s instructions
 Transfer to plastic container and freeze
 Notes You can eat this as a vanilla ice cream or add/top with whatever extra flavours you want!</description>
     </item>
-    
     <item>
       <title>vegan chocolate cookies</title>
       <link>https://www.itwont.work/recipes/cookies.html</link>
       <pubDate>Thu, 07 Jul 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://www.itwont.work/recipes/cookies.html</guid>
       <description>Ingredients 250 grams all-purpose flour 1 teaspoon baking powder 3/4 teaspoon baking soda 1/2 teaspoon fine salt 1 1/4 cups dark chocolate chips (or guess) 100 grams sugar 110 grams packed light or dark brown sugar 140ml canola, grapeseed, or any other neutral oil 75ml water Coarse-grained sea salt or flaky sea salt, for garnish Method In a large bowl, whisk together flour, baking powder, baking soda, and salt. Add the chocolate chips to the flour mixture and toss to coat.</description>
     </item>
-    
     <item>
       <title>Vegan Cinnamon Rolls</title>
       <link>https://www.itwont.work/recipes/cinnamonrolls.html</link>
       <pubDate>Thu, 07 Jul 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://www.itwont.work/recipes/cinnamonrolls.html</guid>
       <description>Ingredients For the Dough 40g vegan butter 1 packet instant yeast (or use rapid-rise yeast // 1 packet yields ~ 2 1/4 tsp) 240 ml unsweetened nondairy milk 1 tbsp sugar 1/4 tsp salt 400 g unbleached all-purpose flour For the Filling 42 g vegan butter, melted 50 g organic cane sugar 1 1/2 to 3 tsp ground cinnamon (to taste) For the Topping 30 g vegan butter, melted Method In a large sauce pan (or in a bowl in the microwave at 30-second increments), heat the milk and butter until warm and melted, never reaching boiling.</description>
     </item>
-    
     <item>
       <title>Vegan Lime Pies</title>
       <link>https://www.itwont.work/recipes/limepies.html</link>
       <pubDate>Thu, 07 Jul 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://www.itwont.work/recipes/limepies.html</guid>
       <description>Ingredients 190 g vegan graham cracker or digestive biscuit crumbs 60 g vegan butter (melted // such as Earth Balance) 120 g raw cashews (soaked for 4-6 hours or overnight, then drained) 180 ml light or full-fat coconut milk (well shaken) 60 ml coconut oil (melted) 3-4 large limes, juiced (3-4 limes yield ~1/2 cup juice) 1 Tbsp lime zest 80-120 ml agave nectar/maple syrup (depending on preferred sweetness) Method Preheat oven to 375 degrees F (190 C) and line a standard muffin tin with 12 paper liners (as original recipe is written // adjust if altering batch size).</description>
     </item>
-    
     <item>
       <title>Veganaise</title>
       <link>https://www.itwont.work/recipes/veganaise.html</link>
       <pubDate>Thu, 07 Jul 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://www.itwont.work/recipes/veganaise.html</guid>
       <description>Ingredients 250g soft tofu 60ml canola oil 15ml apple cider vinegar 30g dijon mustard 1.25g salt Method Place the 250 g (1 cup) of soft tofu, 15 ml (1 tbsp) apple cider vinegar, 30 g (2 tbsp) dijon mustard and 1.25 g (1/4 tsp) salt in a blender and process until smooth. Add 60 ml (4 tbsp) of canola oil, and continue to blend for 1-2 minutes. Notes Source</description>
     </item>
-    
     <item>
       <title>Vegetable Paella</title>
       <link>https://www.itwont.work/recipes/paella.html</link>
       <pubDate>Thu, 07 Jul 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://www.itwont.work/recipes/paella.html</guid>
       <description>Serves 4-6
 Ingredients 4 tablespoons olive oil 2 onions, chopped 2 garlic cloves, chopped 1 red pepper, seeded and sliced 1 yellow pepper, seeded and sliced 450g tomatoes, skinned and chopped 225g green beans, trimmed 450g peas in pods 450g arborio rice 1 tsp paprika 300ml dry white wine 1/2 tsp saffron 900ml veg stock salt and peppr Method Heat the olive oil in a large pan. Fry the onion and garlic until soft and golden.</description>
     </item>
-    
     <item>
       <title>Waffles</title>
       <link>https://www.itwont.work/recipes/waffles.html</link>
       <pubDate>Thu, 07 Jul 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://www.itwont.work/recipes/waffles.html</guid>
       <description>Ingredients 470ml nondairy milk 1 tbsp cornstarch 1 tbsp cider vinegar 350g plain flour 45g sugar 1 tbsp baking powder 1/2 tsp salt 75ml water 2 tbsp canola, corn, or another neutral oil, plus oil for waffle iron 1 tsp vanilla Method In a measuring jug, use a fork to mix half the milk with the cornstarch until fully dissolved. Add the remaining milk and the vinegar and set aside.</description>
     </item>
-    
     <item>
       <title>Walnut Granola</title>
       <link>https://www.itwont.work/recipes/granola.html</link>
       <pubDate>Thu, 07 Jul 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://www.itwont.work/recipes/granola.html</guid>
       <description>Walnut Granola Ingredients 90g Oats 115g Walnuts 1tsp Cinnamon 2tbsp Melted Coconut Oil 60ml Maple Syrup 2tbsp Almond Butter Sea Salt to taste Method Heat your oven to 150C/140C fan. Line a baking tray with parchment paper.
 Combine oats, walnuts, cinnamon, and salt in a bowl.
@@ -374,79 +304,63 @@ Drizzle over maple syrup and melted coconut oil.
 Add almond butter and stir.
 Place onto baking sheet and press until about 1&amp;quot; thick overall. Bake for 15 minutes.</description>
     </item>
-    
     <item>
       <title>I responded to a telegram crypto scam, so you don&#39;t have to</title>
       <link>https://www.itwont.work/blog/cryptoscam.html</link>
       <pubDate>Thu, 16 Jun 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://www.itwont.work/blog/cryptoscam.html</guid>
       <description>The Conversation I got a random telegram message today from somebody called &amp;quot;Lucy Abigail&amp;quot;, who shared no groups with me and I had never heard of before. Usually, my go-to here is just to ignore the message and block the acccount, but today I was bored and decided to reply.
 &amp;quot;Lucy&amp;quot; first messaged me claiming that they just wanted to chat, and initially even claimed to not know what bitcoin was:</description>
     </item>
-    
     <item>
       <title>Stop. Writing. Shell. Scripts. (a rant)</title>
       <link>https://www.itwont.work/blog/shellrant.html</link>
       <pubDate>Tue, 17 May 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://www.itwont.work/blog/shellrant.html</guid>
       <description>(warning - this is basically unedited ranting into a text editor. Here there be dragons!)
 Shell scripts are the worst kind of problem, where everybody seems to have just accepted that the problem is there and not worth dealing with. Shell scripts have been normalised as an acceptable part of life on a linux or unix system, but they shouldn&#39;t be. Shell scripts are an unacceptably awful form of programming. While many people contend that a good programmer can write a good program in any language, and I mostly agree, shell scripts work so hard against you in writing anything approaching a good program.</description>
     </item>
-    
     <item>
       <title>Smartphones are good, actually*</title>
       <link>https://www.itwont.work/blog/phone.html</link>
       <pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://www.itwont.work/blog/phone.html</guid>
       <description>So I recently moved to using a smartphone after being a basic-phone only person for multiple years, and my experience has been actually positive. To the point where I would write a provocatively titled blog post about it for the clicks from annoyed FOSS and permacomputing people at me liking an objectively trash device. And yes, smartphones are objectively trash. They&#39;re hard to repair, built for minimum life and maximum profit, and generally suck (as all devices invented by modern capitalism do).</description>
     </item>
-    
     <item>
       <title>I simulated 6,400 bad AI Games of dots and boxes, and discovered nothing</title>
       <link>https://www.itwont.work/blog/dotsandboxes.html</link>
       <pubDate>Sun, 10 Apr 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://www.itwont.work/blog/dotsandboxes.html</guid>
       <description>Occasionally, I get a silly idea and then decide to make it. Most recently, I decided to create a bunch of bad AI and have them play the children&#39;s game &amp;quot;Dots and Boxes&amp;quot; against each other. Here&#39;s how that went.
 Background Dots and Boxes is a pen-and-paper strategy game that is usually played by children, or between children and parents during times when more interesting games are unavailable, like at school or while waiting for food at a family restaurant.</description>
     </item>
-    
     <item>
       <title>Complaining About a Door (for far too long)</title>
       <link>https://www.itwont.work/blog/door.html</link>
       <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://www.itwont.work/blog/door.html</guid>
       <description>In his book The Design of Everyday Things, Don Norman used doors as an example of unintuitive design. His primary example was a door that needed to be pushed to open, but had a handle that intuitively would be pulled - leading to confusion and frustration for anybody attempting to pass through it. These confusing doors later got called &amp;quot;Norman Doors&amp;quot; as a reference to his work. But what if I told you that Norman Doors were only the beginning, and there is a whole WORLD of terrible doors out there?</description>
     </item>
-    
     <item>
       <title>My FAWM 2022 Experience</title>
       <link>https://www.itwont.work/blog/fawm.html</link>
       <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://www.itwont.work/blog/fawm.html</guid>
       <description>February is over, and with it, FAWM (february album writing month) is over. I challenged myself to write 14 songs in February, and I successfully wrote...10! Or 6. Depends on how you count it (10 songs submitted to FAWM, 6 I&#39;d consider &amp;quot;songs&amp;quot; by my own criteria). I actually started FAWM on the 10th, because I had exams and other things that were more important to deal with for the first half of febuary, so I wasn&#39;t expecting to reach the 14-song mark.</description>
     </item>
-    
     <item>
       <title>Documenting Projects (and a question)</title>
       <link>https://www.itwont.work/blog/projects.html</link>
       <pubDate>Sun, 27 Feb 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://www.itwont.work/blog/projects.html</guid>
       <description>I&#39;ve been wanting to blog more about projects I&#39;ve done and how I did them, sharing those creative things, but I&#39;ve run into a few problems that make me unsure if doing so is worth it.
 Firstly, that most of my projects are things that feel fun to me but are actually very boring when I think about them (like the project that prompted this post, my new dance game setup, the main parts of which were making a foam mat and a small bracket).</description>
     </item>
-    
     <item>
       <title>Site updates - new recipes, gear page</title>
       <link>https://www.itwont.work/blog/updates202202.html</link>
       <pubDate>Thu, 03 Feb 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://www.itwont.work/blog/updates202202.html</guid>
       <description>So I&#39;ve made some more stuff on this site, and I thought I&#39;d write about it here to get an update out. Firstly, I&#39;ve made a page for the gear I use:
 Gear
@@ -454,99 +368,80 @@ Secondly, I uploaded some new recipes!
 Recipes
 That&#39;s it! Enjoy your day!</description>
     </item>
-    
     <item>
       <title>It&#39;s sewing, innit? Adding Bat Wings to my Boots!</title>
       <link>https://www.itwont.work/blog/bootwings.html</link>
       <pubDate>Sat, 15 Jan 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://www.itwont.work/blog/bootwings.html</guid>
       <description>I&#39;ve decided that in 2022 I want to learn to sew better, using the sewing machine I got towards the end of 2021. Since I started at my current college I&#39;ve had a friend who&#39;s look I am not even subtle about the fact I&#39;m trying to steal, and she has some awesome boots that have bat wings on them. They came from a brand called Koi Footwear, who are wayyy out of my price range.</description>
     </item>
-    
     <item>
       <title>Using a soundcore bluetooth speaker (or similar) as a meditation timer</title>
       <link>https://www.itwont.work/blog/timer.html</link>
       <pubDate>Tue, 11 Jan 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://www.itwont.work/blog/timer.html</guid>
       <description>I have a soundcore mini portable speaker. Like every modern device, especially aimed at the smartphone accessory market, it has way too many god damn features including an FM radio, bluetooth, audio playback from SD cards, and probably more things I don&#39;t even know it can do (I bought it originally only as a portable speaker to use wired). These features were initially just an annoyance to have to press &amp;quot;mode&amp;quot; a few times before being able to just use it to play from an aux in, but I&#39;ve found a way to put the SD-playback mode to good use, as a meditation timer.</description>
     </item>
-    
     <item>
       <title>My 12 Days of Tea TIER LIST </title>
       <link>https://www.itwont.work/blog/tea.html</link>
       <pubDate>Wed, 05 Jan 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://www.itwont.work/blog/tea.html</guid>
       <description>I got a box of an assortment of different teas and infusions for Christmas. Over the 12 days of Christmas (entirely coincidentally, as it turns out) I tasted all of these. Here&#39;s my opinions on them all and a TIER LIST (because Gemini needed tier list content). All teas are from twinings. (the tier list is using abbreviated names because some of these blends have very long names)
 A: Jasmine, Earl Grey B: Pure Green C: Turmeric, Everyday D: Citrus and ginger, cranberry and lime, lemon and ginger E: Beetroot F: &amp;#34;Glow&amp;#34;, Strawberry and Raspberry, Peppermint Micro-reviews Day 1: Earl Grey.</description>
     </item>
-    
     <item>
       <title>New Site, New Year, and Depth</title>
       <link>https://www.itwont.work/blog/newsite.html</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://www.itwont.work/blog/newsite.html</guid>
       <description>It&#39;s 2022! Here&#39;s hoping that 2022 ends up feeling like a new year, and not like 2020 part 3.
 To get the meta stuff out of the way first, you may have noticed that this site has changed. I&#39;ve actually rewritten my site generator and restructured this site to be more like a conventional personal website or capsule, with a blog and some static pages. There might be some dead links and bugs for a while while I work stuff out, so be a little patient with this!</description>
     </item>
-    
     <item>
       <title>Book Review: 1984</title>
       <link>https://www.itwont.work/blog/1984.html</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-      
       <guid>https://www.itwont.work/blog/1984.html</guid>
       <description>(note: post date is due to the fact it is a pre-migration post with an unknown date)
 (Review migrated from old bookwyrm profile, apologies for brevity)
 1984 is a classic for a reason. It&#39;s often misunderstood or its political and philosophical commentary is taken at such a surface level it gets stripped of meaning, but this is a very good book that is well worth reading. It&#39;s a cliche to say that this book is &amp;quot;only getting more relevant&amp;quot;, but that&#39;s because it feels true.</description>
     </item>
-    
     <item>
       <title>Book Review: Entangled Life</title>
       <link>https://www.itwont.work/blog/entangledlife.html</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-      
       <guid>https://www.itwont.work/blog/entangledlife.html</guid>
       <description>(note: post date is due to the fact it is a pre-migration post with an unknown date)
 (Review migrated from old bookwyrm profile, apologies for brevity)
 This book is a very compelling book that is a good introduction to the world of mycology - at least, an introduction that has got me so interested that it&#39;s opened up this entire new field of fascination to me (especially radical mycology) that I had absolutely no interest in before.</description>
     </item>
-    
     <item>
       <title>Book Review: How to Take Smart Notes</title>
       <link>https://www.itwont.work/blog/smartnotes.html</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-      
       <guid>https://www.itwont.work/blog/smartnotes.html</guid>
       <description>(note: post date is due to the fact it is a pre-migration post with an unknown date)
 (Review migrated from old bookwyrm profile, apologies for brevity)
 I&#39;m not entirely sure how I feel about this book. On the one hand, it was an interesting read, and certainly from it I learned how to use the zettelkasten (and I have started doing so), Although so far I&#39;ve found that many of my notes just don&#39;t fit the format at all, as most are project specific (which are to be kept seperately).</description>
     </item>
-    
     <item>
       <title>Book Review: The design of everyday things</title>
       <link>https://www.itwont.work/blog/designofeverydaythings.html</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-      
       <guid>https://www.itwont.work/blog/designofeverydaythings.html</guid>
       <description>(note: post date is due to the fact it is a pre-migration post with an unknown date)
 I&#39;m becoming conscious of the fact that these &amp;quot;reviews&amp;quot; aren&#39;t exactly reviews in the actually critical sense, or actual reviews of the content of the book, but rather closer to just being a recommendation or non-recommendation of the book depending on how I feel with a small reason why, and that&#39;s exactly what this one is too.</description>
     </item>
-    
     <item>
       <title>Music</title>
       <link>https://www.itwont.work/music.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://www.itwont.work/music.html</guid>
       <description>Music! I make it. Most stuff here is old sketches, incomplete works, and such.
 The quality is mixed, but it&#39;s here for the sake of sharing it. mixed quality, but it&#39;s here.
 Bandcamp, for if you want to pay for things. Currently empty.
 FAWM I tried FAWM (Febuary Album Writing Month, a songwriting challenge) in 2022. Here&#39;s my songs. They&#39;re probably not good but hopefully are at least ideas. Either way I had fun making them.</description>
     </item>
-    
   </channel>
 </rss>
